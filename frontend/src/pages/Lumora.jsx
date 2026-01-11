@@ -142,10 +142,10 @@ export const Lumora = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Sparkles className="w-16 h-16 text-orange-400 mx-auto mb-6" />
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Discover Lumora's Premium Actives
+            Discover Lumora's Advanced Materials
           </h2>
           <p className="text-xl text-teal-100 mb-8">
-            Visit the Lumora website to explore our complete range of personal care ingredients
+            Visit the Lumora website to explore our complete range of high-performance materials for semiconductors, display, and specialty chemicals
           </p>
           <a
             href={lumoraContent.externalLink}

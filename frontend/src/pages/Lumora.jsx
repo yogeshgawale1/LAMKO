@@ -87,9 +87,6 @@ export const Lumora = () => {
           </div>
         </div>
       </section>
-          </div>
-        </div>
-      </section>
 
       {/* Application Areas */}
       <section className="py-20 bg-white">

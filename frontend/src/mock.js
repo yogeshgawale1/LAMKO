@@ -144,6 +144,124 @@ export const lumoraContent = {
     "Vertical integration for sustainable competitive advantages",
     "Advanced materials for semiconductors, display, specialty chemicals"
   ],
+
+export const reactionCapabilities = {
+  title: "Reaction Capabilities",
+  description: "Over the years LAMKO has gained widespread experience with challenging reactions for the preparation of advance laboratory samples. In addition to general reactions, we are specialized in following reactions:",
+  reactions: [
+    { name: "Boylation", category: "General" },
+    { name: "Claisen Condensation", category: "General" },
+    { name: "Beckmann Rearrangement", category: "Rearrangement" },
+    { name: "Halogenations", category: "Halogen" },
+    { name: "Bouveault - Blanc Reaction", category: "Reduction" },
+    { name: "Catalytic reduction", category: "Reduction" },
+    { name: "Nitration", category: "Nitro" },
+    { name: "Gabriel Synthesis", category: "Synthesis" },
+    { name: "Condensations", category: "General" },
+    { name: "Sandmeyer Reaction", category: "Substitution" },
+    { name: "Japp - Klingemann Hydrazone Synthesis", category: "Synthesis" },
+    { name: "Cyclization", category: "Ring Formation" },
+    { name: "Wolff Kishner Reduction", category: "Reduction" },
+    { name: "Decarboxylation", category: "Elimination" },
+    { name: "Friedel-Craft Reaction", category: "Alkylation" },
+    { name: "Bromination", category: "Halogen" },
+    { name: "Wittig Reaction", category: "Olefination" },
+    { name: "Cyanation", category: "Functional Group" },
+    { name: "Oxidation", category: "Redox" },
+    { name: "Addition Reaction", category: "Addition" },
+    { name: "Diazotisation", category: "Diazo" },
+    { name: "Vilsmeier-Haack reaction", category: "Formylation" },
+    { name: "Aldol Condensations", category: "C-C Bond" },
+    { name: "Coupling Reactions", category: "C-C Bond" },
+    { name: "Michael Additions", category: "Addition" },
+    { name: "Acetal Formation", category: "Protection" },
+    { name: "Epoxidation", category: "Oxidation" },
+    { name: "Carboxylation", category: "Functional Group" },
+    { name: "Alkylation Amination", category: "Alkylation" },
+    { name: "Grignard Reaction", category: "Organometallic" },
+    { name: "Dehalogenations", category: "Elimination" },
+    { name: "Deprotection", category: "Protection" },
+    { name: "Esterification", category: "Functional Group" },
+    { name: "Formylation", category: "Functional Group" },
+    { name: "Hydrogenation", category: "Reduction" },
+    { name: "Hydrolysis", category: "Cleavage" },
+    { name: "Mannich Reactions", category: "C-C Bond" },
+    { name: "Negishi Coupling", category: "C-C Bond" },
+    { name: "Protection", category: "Protection" },
+    { name: "Thionation", category: "Sulfur" },
+    { name: "Acylation", category: "Functional Group" },
+    { name: "De-alkylation cleavage", category: "Cleavage" },
+    { name: "Schiff base reaction", category: "Condensation" },
+    { name: "Pinner synthesis", category: "Synthesis" }
+  ]
+};
+
+export const facilityInfrastructure = {
+  title: "Facility & Infrastructure",
+  description: "LAMKO is a premier, technology-driven bridge between cutting-edge innovation and world-class manufacturing. Strategically headquartered in Seoul with advanced R&D and process intensification facilities, we specialize in the development and commercialization of high-performance materials for the semiconductor, display, and specialty chemical industries.",
+  valueProposition: "Our unique 'light CDMO' model focuses on the high-value front end of the supply chain, connecting the formidable R&D capabilities of leading Korean tech firms with scalable, cGMP-compliant production. We de-risk the journey from innovation to production, providing our global partners with a seamless, pre-validated pipeline of advanced projects, ready for scale.",
+  locations: [
+    {
+      name: "Seoul, Korea - R&D Center",
+      description: "World-class laboratory, clean rooms and with advanced equipment for purifications and analysis/characterizations. Our laboratories are equipped to handle everything from rapid gram-scale screening to multi-kilogram pilot-scale validation, ensuring process safety and scalability.",
+      capabilities: [
+        {
+          category: "Process Development",
+          equipment: [
+            "Modern Fume Hood Systems",
+            "Autoclaves (500ml to 25L)",
+            "Glass Reactor Assemblies (100ml to 250L)",
+            "High Vacuum Distillation Systems",
+            "Vacuum Tray Dryers",
+            "Hot Air Ovens",
+            "Reaction Calorimetry/Safety Screening Systems",
+            "Rotavapor Systems"
+          ]
+        },
+        {
+          category: "Analytical Characterization",
+          equipment: [
+            "HPLC/UPLC Systems",
+            "GC/GC-MS Systems",
+            "LC-MS Systems",
+            "FTIR Spectrometers",
+            "DSC Analyzers",
+            "Auto Titrators",
+            "Electronic Lab Notebooks (E-LNB)"
+          ]
+        },
+        {
+          category: "Specialty Materials Processing",
+          equipment: [
+            "High-Vacuum Sublimation Purification Systems",
+            "Zone Refining Apparatus",
+            "Inert Atmosphere Glove Boxes",
+            "Photoluminescence/Electroluminescence Measurement Systems",
+            "Thin-Film Deposition Tools (Spin Coaters, Thermal Evaporators)"
+          ]
+        }
+      ]
+    },
+    {
+      name: "India - Manufacturing Facility",
+      description: "Flexible cGMP compliant production space and process development laboratories that are fully licensed as per Indian Factory Act. Combining manufacturing efficiency with quality compliance for scalable production.",
+      capabilities: [
+        {
+          category: "Production Infrastructure",
+          equipment: [
+            "cGMP Compliant Production Space",
+            "Process Development Laboratories",
+            "Licensed under Indian Factory Act",
+            "Scalable Manufacturing Units",
+            "Quality Control Facilities"
+          ]
+        }
+      ]
+    }
+  ],
+  endToEnd: "End-to-end development from concept to production-ready processes, delivering optimized, high-purity materials for advanced technology applications."
+};
+
   externalLink: "https://lumora.example.com",
   cta: "Visit Lumora Website"
 };

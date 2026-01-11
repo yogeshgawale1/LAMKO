@@ -7,27 +7,14 @@ import { lumoraContent } from '../mock';
 export const Lumora = () => {
   return (
     <div className="min-h-screen pt-20">
-      {/* Hero Section */}
-      <section className="relative h-96 flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0">
+      {/* Hero Section with Branding Image */}
+      <section className="relative overflow-hidden bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <img
-            src={lumoraContent.image}
-            alt="Lumora"
-            className="w-full h-full object-cover"
+            src={lumoraContent.brandingImage}
+            alt="Lumora - Advanced Materials Korea"
+            className="w-full h-auto rounded-lg shadow-2xl"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-teal-900/90 via-teal-800/85 to-orange-900/90"></div>
-        </div>
-
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block mb-4">
-            <Sparkles className="text-orange-400 w-12 h-12 mx-auto mb-2" />
-          </div>
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-            {lumoraContent.name}
-          </h1>
-          <p className="text-2xl text-teal-200 font-medium">
-            {lumoraContent.tagline}
-          </p>
         </div>
       </section>
 

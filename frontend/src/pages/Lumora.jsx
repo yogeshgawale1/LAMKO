@@ -96,10 +96,10 @@ export const Lumora = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Application Areas
+              Industry Applications
             </h2>
             <p className="text-xl text-gray-600">
-              Versatile actives for diverse personal care formulations
+              High-performance materials for critical technology sectors
             </p>
           </div>
 
@@ -107,9 +107,9 @@ export const Lumora = () => {
             <Card className="hover:shadow-xl transition-shadow duration-300">
               <CardContent className="pt-8">
                 <Target className="w-10 h-10 text-orange-600 mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Skincare</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Semiconductors</h3>
                 <p className="text-gray-600">
-                  Advanced actives for anti-aging, brightening, and skin barrier support formulations
+                  Advanced materials and specialty chemicals for next-generation semiconductor manufacturing processes
                 </p>
               </CardContent>
             </Card>
@@ -117,9 +117,9 @@ export const Lumora = () => {
             <Card className="hover:shadow-xl transition-shadow duration-300">
               <CardContent className="pt-8">
                 <Target className="w-10 h-10 text-teal-600 mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Cosmetics</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Display Technologies</h3>
                 <p className="text-gray-600">
-                  Premium ingredients for color cosmetics and makeup products with enhanced performance
+                  Cutting-edge materials for OLED, LCD, and innovative display technology applications
                 </p>
               </CardContent>
             </Card>
@@ -127,9 +127,9 @@ export const Lumora = () => {
             <Card className="hover:shadow-xl transition-shadow duration-300">
               <CardContent className="pt-8">
                 <Target className="w-10 h-10 text-orange-600 mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Personal Care</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Specialty Chemicals</h3>
                 <p className="text-gray-600">
-                  Innovative actives for hair care, body care, and specialty personal care products
+                  High-purity specialty chemicals and advanced intermediates for diverse industrial applications
                 </p>
               </CardContent>
             </Card>

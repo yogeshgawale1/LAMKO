@@ -265,10 +265,6 @@ export const facilityInfrastructure = {
   endToEnd: "End-to-end development from concept to production-ready processes, delivering optimized, high-purity materials for advanced technology applications."
 };
 
-  externalLink: "https://lumora.example.com",
-  cta: "Visit Lumora Website"
-};
-
 export const contactForm = {
   title: "Let's Discuss Your Project",
   subtitle: "Share a brief summary of your R&D or scale-up challenge",

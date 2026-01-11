@@ -68,10 +68,10 @@ export const Lumora = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Why Lumora Stands Out
+              Korea-India Vertical Integration
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Combining LAMKO's technical excellence with personal care innovation
+              Combining Korea's innovation leadership with India's manufacturing efficiency for sustainable competitive advantages
             </p>
           </div>
 
@@ -84,6 +84,9 @@ export const Lumora = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
           </div>
         </div>
       </section>

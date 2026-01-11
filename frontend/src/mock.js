@@ -144,6 +144,9 @@ export const lumoraContent = {
     "Vertical integration for sustainable competitive advantages",
     "Advanced materials for semiconductors, display, specialty chemicals"
   ],
+  externalLink: "https://lumora.example.com",
+  cta: "Visit Lumora Website"
+};
 
 export const reactionCapabilities = {
   title: "Reaction Capabilities",

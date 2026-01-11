@@ -26,9 +26,12 @@ export const Lumora = () => {
               <div className="inline-block px-4 py-1 bg-teal-100 text-teal-600 rounded-full text-sm font-semibold mb-4">
                 A LAMKO Brand
               </div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Setting New Standards in Personal Care
+              <h2 className="text-4xl font-bold text-gray-900 mb-3">
+                {lumoraContent.name}
               </h2>
+              <p className="text-2xl text-orange-600 font-semibold mb-6">
+                {lumoraContent.tagline}
+              </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
                 {lumoraContent.description}
               </p>
@@ -46,14 +49,14 @@ export const Lumora = () => {
 
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1764694187667-f28a05a52c0e"
-                alt="Lumora Products"
+                src="https://images.unsplash.com/photo-1766297247924-6638d54e7c89"
+                alt="Advanced Materials Research"
                 className="rounded-lg shadow-2xl"
               />
               <div className="absolute -bottom-6 -right-6 bg-teal-600 text-white p-6 rounded-lg shadow-xl">
                 <Award className="w-12 h-12 mb-2" />
-                <div className="text-sm font-medium">Premium Quality</div>
-                <div className="text-xs text-teal-100">Actives</div>
+                <div className="text-sm font-medium">Innovation</div>
+                <div className="text-xs text-teal-100">Leadership</div>
               </div>
             </div>
           </div>

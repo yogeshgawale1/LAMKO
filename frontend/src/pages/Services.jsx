@@ -118,10 +118,10 @@ export const Services = () => {
                   <span className="text-3xl font-bold text-teal-600">1</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Materials R&D
+                  Process Development
                 </h3>
                 <p className="text-gray-600">
-                  External lab services for formulation, analysis, and performance validation of semiconductor materials
+                  Optimizing chemical processes for yield, cost, and scalability
                 </p>
               </CardContent>
             </Card>
@@ -135,7 +135,7 @@ export const Services = () => {
                   Scale-Up Production
                 </h3>
                 <p className="text-gray-600">
-                  High-purity materials manufacturing ensuring consistency, quality, and cleanroom-ready packaging
+                  High-purity materials manufacturing ensuring consistency and cleanroom-ready packaging
                 </p>
               </CardContent>
             </Card>

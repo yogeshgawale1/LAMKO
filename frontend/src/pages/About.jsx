@@ -101,14 +101,14 @@ export const About = () => {
               Trusted by Industry Leaders
             </h2>
             <p className="text-xl text-gray-600">
-              Partnering with Korea's top technology companies
+              Partnering with leading technology companies and research institutions
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {aboutContent.clients.map((client, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="p-8 text-center">
-                  <div className="text-2xl font-bold text-gray-800">{client}</div>
+                  <div className="text-xl font-bold text-gray-800">{client}</div>
                 </CardContent>
               </Card>
             ))}

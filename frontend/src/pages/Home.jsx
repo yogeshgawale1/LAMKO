@@ -15,14 +15,14 @@ export const Home = () => {
           <img
             src={heroContent.image}
             alt="LAMKO Innovation"
-            className="w-full h-full object-cover"
-          />
+            className="w-full h-full object-cover" />
+
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900/95 via-gray-900/85 to-gray-900/75"></div>
         </div>
 
         {/* Hero Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
+          <h1 className="md:text-7xl !font-bold !text-5xl !mb-[18px] text-white">
             {heroContent.title}
           </h1>
           <p className="text-xl md:text-2xl text-teal-400 mb-4 font-medium">
@@ -58,14 +58,14 @@ export const Home = () => {
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
+            {stats.map((stat, index) =>
+            <div key={index} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-orange-600 mb-2">
                   {stat.value}
                 </div>
                 <div className="text-gray-600 font-medium">{stat.label}</div>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -127,14 +127,14 @@ export const Home = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {services.map((service) => (
-              <Card key={service.id} className="group hover:shadow-2xl transition-all duration-300 overflow-hidden">
+            {services.map((service) =>
+            <Card key={service.id} className="group hover:shadow-2xl transition-all duration-300 overflow-hidden">
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
                 </div>
                 <CardContent className="pt-6">
@@ -143,16 +143,16 @@ export const Home = () => {
                   </h3>
                   <p className="text-gray-600 mb-4">{service.description}</p>
                   <ul className="space-y-2 mb-4">
-                    {service.benefits.slice(0, 3).map((benefit, idx) => (
-                      <li key={idx} className="flex items-start space-x-2 text-sm text-gray-600">
+                    {service.benefits.slice(0, 3).map((benefit, idx) =>
+                  <li key={idx} className="flex items-start space-x-2 text-sm text-gray-600">
                         <CheckCircle2 size={16} className="text-teal-600 mt-0.5 flex-shrink-0" />
                         <span>{benefit}</span>
                       </li>
-                    ))}
+                  )}
                   </ul>
                 </CardContent>
               </Card>
-            ))}
+            )}
           </div>
 
           <div className="text-center mt-12">
@@ -183,50 +183,50 @@ export const Home = () => {
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/68p2e472_image.png"
                 alt="Industry Experience 1"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
-              />
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+
             </div>
             <div className="flex justify-center">
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/6xz4llrc_image.png"
                 alt="Industry Experience 2"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
-              />
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+
             </div>
             <div className="flex justify-center">
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/2lwelm0f_image.png"
                 alt="Industry Experience 3"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
-              />
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+
             </div>
             <div className="flex justify-center">
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/p26ecier_image.png"
                 alt="Industry Experience 4"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
-              />
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+
             </div>
             <div className="flex justify-center">
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/26ucq9m6_image.png"
                 alt="Industry Experience 5"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
-              />
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+
             </div>
             <div className="flex justify-center">
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/n7kf9bbn_image.png"
                 alt="Industry Experience 6"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
-              />
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+
             </div>
             <div className="flex justify-center">
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/vfzsej54_image.png"
                 alt="Industry Experience 7"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
-              />
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+
             </div>
           </div>
         </div>
@@ -249,6 +249,6 @@ export const Home = () => {
           </Link>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };

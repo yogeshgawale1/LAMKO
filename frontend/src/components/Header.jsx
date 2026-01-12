@@ -14,7 +14,9 @@ export const Header = () => {
       hasDropdown: true,
       items: [
         { name: 'Home', path: '/' },
-        { name: 'About', path: '/about' }
+        { name: 'About', path: '/about' },
+        { name: 'CEO Message', path: '/ceo-message' },
+        { name: 'Organisation Chart', path: '/organisation-chart' }
       ]
     },
     {
@@ -40,17 +42,17 @@ export const Header = () => {
       name: 'Capabilities',
       hasDropdown: true,
       items: [
-        { name: 'Reactions', path: '/capabilities/reactions' },
+        { name: 'Research and Development', path: '/capabilities/rd' },
+        { name: 'Purification Technologies', path: '/capabilities/purifications' },
         { name: 'Facility and Infrastructure', path: '/capabilities/facility' },
-        { name: 'R&D', path: '/capabilities/rd' },
-        { name: 'Purifications Technologies', path: '/capabilities/purifications' }
+        { name: 'Production Plants', path: '/capabilities/production-plants' }
       ]
     },
     {
       name: 'Platform/Brands',
       hasDropdown: true,
       items: [
-        { name: 'LUMORA', path: '/brands/lumora' }
+        { name: 'LUMORA', path: 'https://lumorachemicals.com/', external: true }
       ]
     },
     { name: 'Get in Touch', path: '/get-in-touch', hasDropdown: false }

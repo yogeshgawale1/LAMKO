@@ -58,8 +58,7 @@ export const Header = () => {
       items: [
         { name: 'LUMORA', path: 'https://lumorachemicals.com/', external: true }
       ]
-    },
-    { name: 'Get in Touch', path: '/get-in-touch', hasDropdown: false }
+    }
   ];
 
   const isActive = (path) => location.pathname === path;

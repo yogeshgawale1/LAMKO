@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Beaker, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Beaker, CheckCircle2, Plus, X, Calendar } from 'lucide-react';
 import { Button } from '../../components/ui/button';
 import { Card, CardContent } from '../../components/ui/card';
+import { Input } from '../../components/ui/input';
+import { Label } from '../../components/ui/label';
+import { Textarea } from '../../components/ui/textarea';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../components/ui/select';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs';
+import { useToast } from '../../hooks/use-toast';
 
 export const MaterialsRD = () => {
+  const { toast } = useToast();
+  
   const benefits = [
     "External lab for semiconductor materials development",
     "Formulation and composition optimization",
@@ -13,6 +21,84 @@ export const MaterialsRD = () => {
     "Rapid prototyping and iteration",
     "Expert scientific consultation"
   ];
+
+  // Product Inquiry State
+  const [products, setProducts] = useState([{
+    id: 1,
+    productName: '',
+    casNumber: '',
+    packSize: '',
+    unit: 'mg',
+    packQuantity: '',
+    purityLevel: '',
+    grade: 'Reagent'
+  }]);
+
+  const [customerInfo, setCustomerInfo] = useState({
+    phoneNumber: '',
+    customerName: '',
+    companyName: '',
+    email: ''
+  });
+
+  // Meeting Request State
+  const [meetingRequest, setMeetingRequest] = useState({
+    name: '',
+    company: '',
+    email: '',
+    message: ''
+  });
+
+  const addProduct = () => {
+    if (products.length < 10) {
+      setProducts([...products, {
+        id: products.length + 1,
+        productName: '',
+        casNumber: '',
+        packSize: '',
+        unit: 'mg',
+        packQuantity: '',
+        purityLevel: '',
+        grade: 'Reagent'
+      }]);
+    }
+  };
+
+  const removeProduct = (id) => {
+    if (products.length > 1) {
+      setProducts(products.filter(p => p.id !== id));
+    }
+  };
+
+  const handleProductChange = (id, field, value) => {
+    setProducts(products.map(p => p.id === id ? { ...p, [field]: value } : p));
+  };
+
+  const handleCustomerInfoChange = (field, value) => {
+    setCustomerInfo({ ...customerInfo, [field]: value });
+  };
+
+  const handleMeetingChange = (field, value) => {
+    setMeetingRequest({ ...meetingRequest, [field]: value });
+  };
+
+  const handleProductInquiry = (e) => {
+    e.preventDefault();
+    console.log('Product Inquiry:', { customerInfo, products });
+    toast({
+      title: "Inquiry Submitted!",
+      description: "Thank you for your inquiry. Our team will contact you shortly.",
+    });
+  };
+
+  const handleMeetingRequest = (e) => {
+    e.preventDefault();
+    console.log('Meeting Request:', meetingRequest);
+    toast({
+      title: "Meeting Request Sent!",
+      description: "Our custom synthesis team will reach out to schedule a meeting.",
+    });
+  };
 
   return (
     <div className="min-h-screen pt-20">

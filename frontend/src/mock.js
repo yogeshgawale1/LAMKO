@@ -13,7 +13,7 @@ export const companyInfo = {
 export const heroContent = {
   title: "Bridging Innovation to Production",
   subtitle: "High-Performance Materials for Semiconductor, Display & Specialty Chemical Industries",
-  description: "LAMKO connects cutting-edge Korean R&D with world-class manufacturing capabilities through our unique 'light CDMO' model.",
+  description: "LAMKO connects cutting-edge Korean R&D with world-class manufacturing capabilities through our unique 'light CRDMO' model.",
   cta: "Discover Our Technology",
   image: "https://images.unsplash.com/photo-1532186773960-85649e5cb70b"
 };

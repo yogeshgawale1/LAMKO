@@ -42,8 +42,8 @@ export const About = () => {
                     <div className="w-3 h-3 bg-teal-600 rounded-full"></div>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Materials R&D Services</h4>
-                    <p className="text-gray-600">Contract Research Organization (CRO) for semiconductor materials development</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">Specialty Materials Production</h4>
+                    <p className="text-gray-600">Contract Manufacturing Organization (CMO) for high-purity materials</p>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">

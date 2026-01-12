@@ -80,18 +80,22 @@ export const Header = () => {
               item.hasDropdown ? (
                 <div
                   key={item.name}
-                  className="relative group"
+                  className="relative"
                   onMouseEnter={() => setOpenDropdown(item.name)}
                   onMouseLeave={() => setOpenDropdown(null)}
                 >
                   <button
-                    className="flex items-center space-x-1 px-4 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-orange-600 hover:bg-gray-50 transition-colors duration-200"
+                    className="flex items-center space-x-1 px-4 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-orange-600 hover:bg-gray-50 transition-colors duration-200 w-full"
                   >
                     <span>{item.name}</span>
                     <ChevronDown size={16} className={`transition-transform duration-200 ${openDropdown === item.name ? 'rotate-180' : ''}`} />
                   </button>
                   {openDropdown === item.name && (
-                    <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2">
+                    <div 
+                      className="absolute top-full left-0 mt-0 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50"
+                      onMouseEnter={() => setOpenDropdown(item.name)}
+                      onMouseLeave={() => setOpenDropdown(null)}
+                    >
                       {item.items.map((subItem) => (
                         <Link
                           key={subItem.path}
@@ -127,7 +131,7 @@ export const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden lg:block">
-            <Link to="/contact">
+            <Link to="/get-in-touch">
               <Button className="bg-orange-600 hover:bg-orange-700 text-white">
                 Get Started
               </Button>

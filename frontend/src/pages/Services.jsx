@@ -98,7 +98,7 @@ export const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Our Light CDMO Model
+              Our Light CRDMO Model
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Focused on high-value front end of the supply chain
@@ -112,10 +112,10 @@ export const Services = () => {
                   <span className="text-3xl font-bold text-teal-600">1</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  R&D Collaboration
+                  Materials R&D
                 </h3>
                 <p className="text-gray-600">
-                  Work directly with Korean tech leaders to develop innovative materials and processes
+                  External lab services for formulation, analysis, and performance validation of semiconductor materials
                 </p>
               </CardContent>
             </Card>
@@ -126,10 +126,10 @@ export const Services = () => {
                   <span className="text-3xl font-bold text-orange-600">2</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Process Optimization
+                  Scale-Up Production
                 </h3>
                 <p className="text-gray-600">
-                  Perfect chemical processes for yield, cost, and scalability in our Seoul labs
+                  High-purity materials manufacturing ensuring consistency, quality, and cleanroom-ready packaging
                 </p>
               </CardContent>
             </Card>
@@ -140,10 +140,10 @@ export const Services = () => {
                   <span className="text-3xl font-bold text-teal-600">3</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Production Ready
+                  Supply Chain Delivery
                 </h3>
                 <p className="text-gray-600">
-                  Deliver electronics-grade quality materials ready for seamless scale-up
+                  Reliable supply chain management and delivery of production-ready materials
                 </p>
               </CardContent>
             </Card>

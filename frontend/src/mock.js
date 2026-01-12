@@ -25,8 +25,8 @@ export const aboutContent = {
   },
   coreFunction: {
     title: "Our Core Function",
-    subtitle: "The Innovation Gateway",
-    description: "We connect cutting-edge Korean R&D and market demand with world-class manufacturing capabilities. Our unique 'light CRDMO' model focuses on the high-value front end of the chain."
+    subtitle: "The Innovation Gateway: Your R&D Platform for Breakthrough Chemistry",
+    description: "We are the strategic R&D Platform with purification units that seamlessly connect cutting-edge Korean research with global market demand and world-class manufacturing capabilities. Our unique CRDMO model focuses precisely on the high-value front end of the innovation chain, accelerating your journey from concept to commercialization."
   },
   goal: {
     title: "Our Goal",

@@ -42,8 +42,8 @@ export const About = () => {
                     <div className="w-3 h-3 bg-teal-600 rounded-full"></div>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Client-Led R&D</h4>
-                    <p className="text-gray-600">Direct collaboration with Samsung, SK Hynix, LG, Dongwoo, Dongjin for product development</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">Materials R&D Services</h4>
+                    <p className="text-gray-600">Contract Research Organization (CRO) for semiconductor materials development</p>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
@@ -52,7 +52,7 @@ export const About = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Process Intensification & Purification</h4>
-                    <p className="text-gray-600">Achieving electronics-grade quality through precision purification in Korea</p>
+                    <p className="text-gray-600">Achieving electronics-grade quality through precision purification and manufacturing</p>
                   </div>
                 </li>
               </ul>

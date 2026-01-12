@@ -302,30 +302,30 @@ export const GetInTouch = () => {
             <Card className="hover:shadow-xl transition-shadow duration-300">
               <CardContent className="pt-8 text-center">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-3xl font-bold text-teal-600\">24h</span>
+                  <span className="text-3xl font-bold text-teal-600">24h</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Quick Response</h3>
-                <p className=\"text-gray-600\">We respond to all inquiries within 24 hours</p>
+                <p className="text-gray-600">We respond to all inquiries within 24 hours</p>
               </CardContent>
             </Card>
 
-            <Card className=\"hover:shadow-xl transition-shadow duration-300\">
-              <CardContent className=\"pt-8 text-center\">
-                <div className=\"w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4\">
-                  <span className=\"text-3xl font-bold text-orange-600\">🤝</span>
+            <Card className="hover:shadow-xl transition-shadow duration-300">
+              <CardContent className="pt-8 text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-3xl font-bold text-orange-600">🤝</span>
                 </div>
-                <h3 className=\"text-xl font-bold text-gray-900 mb-3\">Expert Consultation</h3>
-                <p className=\"text-gray-600\">Direct access to our technical experts</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Expert Consultation</h3>
+                <p className="text-gray-600">Direct access to our technical experts</p>
               </CardContent>
             </Card>
 
-            <Card className=\"hover:shadow-xl transition-shadow duration-300\">
-              <CardContent className=\"pt-8 text-center\">
-                <div className=\"w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4\">
-                  <span className=\"text-3xl font-bold text-teal-600\">🔒</span>
+            <Card className="hover:shadow-xl transition-shadow duration-300">
+              <CardContent className="pt-8 text-center">
+                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-3xl font-bold text-teal-600">🔒</span>
                 </div>
-                <h3 className=\"text-xl font-bold text-gray-900 mb-3\">Confidential</h3>
-                <p className=\"text-gray-600\">Your information is secure and confidential</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Confidential</h3>
+                <p className="text-gray-600">Your information is secure and confidential</p>
               </CardContent>
             </Card>
           </div>

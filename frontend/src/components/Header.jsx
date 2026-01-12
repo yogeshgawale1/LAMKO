@@ -179,21 +179,33 @@ export const Header = () => {
                   {openDropdown === item.name && (
                     <div className="pl-4 space-y-1">
                       {item.items.map((subItem) => (
-                        <Link
-                          key={subItem.path}
-                          to={subItem.path}
-                          onClick={() => {
-                            setIsMenuOpen(false);
-                            setOpenDropdown(null);
-                          }}
-                          className={`block px-4 py-2 rounded-md text-sm ${
-                            isActive(subItem.path)
-                              ? 'text-orange-600 bg-orange-50'
-                              : 'text-gray-700 hover:text-orange-600 hover:bg-gray-50'
-                          }`}
-                        >
-                          {subItem.name}
-                        </Link>
+                        subItem.external ? (
+                          <a
+                            key={subItem.path}
+                            href={subItem.path}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block px-4 py-2 rounded-md text-sm text-gray-700 hover:text-orange-600 hover:bg-gray-50"
+                          >
+                            {subItem.name}
+                          </a>
+                        ) : (
+                          <Link
+                            key={subItem.path}
+                            to={subItem.path}
+                            onClick={() => {
+                              setIsMenuOpen(false);
+                              setOpenDropdown(null);
+                            }}
+                            className={`block px-4 py-2 rounded-md text-sm ${
+                              isActive(subItem.path)
+                                ? 'text-orange-600 bg-orange-50'
+                                : 'text-gray-700 hover:text-orange-600 hover:bg-gray-50'
+                            }`}
+                          >
+                            {subItem.name}
+                          </Link>
+                        )
                       ))}
                     </div>
                   )}

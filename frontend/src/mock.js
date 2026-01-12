@@ -13,7 +13,7 @@ export const companyInfo = {
 export const heroContent = {
   title: "Scale your innovation capacity instantly",
   subtitle: "High-Performance Materials for Semiconductor, Display & Specialty Chemical Industries",
-  description: "Leverage our expertise to compress timelines and outpace the competition. We act as your flexible, external R&D team, handling the entire development lifecycle—from initial synthesis and sample offering to scaled-up manufacturing and purification of advanced semiconductor materials.",
+  description: "Leverage our expertise to compress timelines and outpace the competition. We act as your flexible, external R&D team, handling the entire development lifecycle, from initial synthesis, sample offering, to scaled-up manufacturing and purification of advanced semiconductor materials.",
   cta: "Discover Our Technology",
   image: "https://images.unsplash.com/photo-1532186773960-85649e5cb70b"
 };

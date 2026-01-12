@@ -140,7 +140,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {services.map((service) => (
               <Card key={service.id} className="group hover:shadow-2xl transition-all duration-300 overflow-hidden">
                 <div className="relative h-48 overflow-hidden">
@@ -176,6 +176,58 @@ export const Home = () => {
                 <ArrowRight className="ml-2" size={20} />
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Core Industry Experience Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Decades of chemical insight, applied through expert engineering
+            </h2>
+            <p className="text-2xl font-semibold text-orange-600 mb-6">
+              Core industry experience
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
+            <div className="flex justify-center">
+              <img
+                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/68p2e472_image.png"
+                alt="Industry Experience 1"
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/6xz4llrc_image.png"
+                alt="Industry Experience 2"
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/2lwelm0f_image.png"
+                alt="Industry Experience 3"
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/p26ecier_image.png"
+                alt="Industry Experience 4"
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/26ucq9m6_image.png"
+                alt="Industry Experience 5"
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
+              />
+            </div>
           </div>
         </div>
       </section>

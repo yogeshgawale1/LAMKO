@@ -21,7 +21,7 @@ export const Services = () => {
               Our Services
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Comprehensive CRO, CMO, and CRDMO services for high-purity materials development and manufacturing
+              Comprehensive CMO and CRDMO services for high-purity materials manufacturing
             </p>
           </div>
         </div>

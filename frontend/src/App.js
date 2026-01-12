@@ -10,6 +10,10 @@ import { MaterialsRD } from "./pages/services/MaterialsRD";
 import { Production } from "./pages/services/Production";
 import { Integrated } from "./pages/services/Integrated";
 import { Capabilities } from "./pages/Capabilities";
+import { Reactions } from "./pages/capabilities/Reactions";
+import { Facility } from "./pages/capabilities/Facility";
+import { RD } from "./pages/capabilities/RD";
+import { Purifications } from "./pages/capabilities/Purifications";
 import { Industries } from "./pages/Industries";
 import { Semiconductor } from "./pages/industries/Semiconductor";
 import { Display } from "./pages/industries/Display";
@@ -17,7 +21,7 @@ import { SpecialtyChemicals } from "./pages/industries/SpecialtyChemicals";
 import { PersonalCare } from "./pages/industries/PersonalCare";
 import { Brands } from "./pages/Brands";
 import { LumoraBrand } from "./pages/brands/LumoraBrand";
-import { Contact } from "./pages/Contact";
+import { GetInTouch } from "./pages/GetInTouch";
 import { Toaster } from "./components/ui/sonner";
 
 function App() {
@@ -33,6 +37,10 @@ function App() {
           <Route path="/services/production" element={<Production />} />
           <Route path="/services/integrated" element={<Integrated />} />
           <Route path="/capabilities" element={<Capabilities />} />
+          <Route path="/capabilities/reactions" element={<Reactions />} />
+          <Route path="/capabilities/facility" element={<Facility />} />
+          <Route path="/capabilities/rd" element={<RD />} />
+          <Route path="/capabilities/purifications" element={<Purifications />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/industries/semiconductor" element={<Semiconductor />} />
           <Route path="/industries/display" element={<Display />} />
@@ -40,7 +48,7 @@ function App() {
           <Route path="/industries/personal-care" element={<PersonalCare />} />
           <Route path="/brands" element={<Brands />} />
           <Route path="/brands/lumora" element={<LumoraBrand />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/get-in-touch" element={<GetInTouch />} />
         </Routes>
         <Footer />
         <Toaster />

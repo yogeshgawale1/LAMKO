@@ -126,10 +126,10 @@ export const brands = [
     id: 1,
     name: "LUMORA",
     tagline: "Advanced Materials Korea",
-    description: "Lumora represents LAMKO's vertical integration model combining Korea's innovation leadership with India's manufacturing efficiency, creating sustainable competitive advantages in the advanced materials market.",
+    description: "LUMORA, an exclusive brand of Lumora Advanced Materials Korea, is dedicated to providing innovative solutions for the semiconductor and organic optoelectronic materials industries. Specializing in custom synthesis, LUMORA offers tailored services to develop high-performance materials for advanced applications, including OLED intermediates, OLED reference compounds, and OLED finished products such as HOST, HTL, HIL, ETL, EIL, and Emitters in sublimed grades, designed for scalability from grams to kilograms. With a commitment to quality and innovation, the brand employs state-of-the-art analytical methods to ensure its materials meet the highest industry standards. Operating from its headquarters in Seoul, South Korea, LUMORA provides reliable just-in-time delivery all over the world, ensuring seamless support for its global clientele. By offering a comprehensive range of cutting-edge materials and equipment, LUMORA aims to deliver a total solution for the semiconductor industry, empowering its clients and driving advancements in technology.",
     brandingImage: "https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/prj99t99_20251222_2309_LAMKO_%20Innovation%20Bridge%20Korea_simple_compose_01kd367g6wf53v8jh7wxsbmq7p.png",
     website: "https://lumorachemicals.com/",
-    industries: ["Semiconductors", "Display Technologies", "Specialty Chemicals"]
+    industries: ["Semiconductors", "OLED Materials", "Optoelectronic Materials"]
   }
 ];
 

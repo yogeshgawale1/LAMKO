@@ -28,21 +28,27 @@ export const Services = () => {
         </div>
       </section>
 
-      {/* Services Detail Section */}
+      {/* Services Overview - All Three Services */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="space-y-24">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Complete Materials Solutions
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              From research to production, we provide integrated services to accelerate your materials innovation
+            </p>
+          </div>
+
+          {/* Service Cards Grid */}
+          <div className="space-y-20">
             {services.map((service, index) => {
               const Icon = iconMap[service.id];
               const isEven = index % 2 === 0;
 
               return (
-                <div
-                  key={service.id}
-                  className={`grid md:grid-cols-2 gap-12 items-center ${
-                    !isEven ? 'md:flex-row-reverse' : ''
-                  }`}
-                >
+                <div key={service.id} className="grid md:grid-cols-2 gap-12 items-center">
+                  {/* Image */}
                   <div className={isEven ? 'md:order-1' : 'md:order-2'}>
                     <div className="relative">
                       <img
@@ -56,32 +62,33 @@ export const Services = () => {
                     </div>
                   </div>
 
+                  {/* Content */}
                   <div className={isEven ? 'md:order-2' : 'md:order-1'}>
                     <div className="inline-block px-4 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold mb-4">
                       {service.subtitle}
                     </div>
-                    <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                    <h3 className="text-4xl font-bold text-gray-900 mb-4">
                       {service.title}
-                    </h2>
+                    </h3>
                     <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                       {service.description}
                     </p>
 
                     <div className="mb-6">
-                      <h3 className="text-lg font-semibold text-gray-900 mb-3">Key Benefits:</h3>
-                      <ul className="space-y-3">
+                      <h4 className="text-lg font-semibold text-gray-900 mb-3">Key Benefits:</h4>
+                      <div className="grid gap-3">
                         {service.benefits.map((benefit, idx) => (
-                          <li key={idx} className="flex items-start space-x-3">
+                          <div key={idx} className="flex items-start space-x-3">
                             <CheckCircle2 size={20} className="text-teal-600 mt-0.5 flex-shrink-0" />
                             <span className="text-gray-700">{benefit}</span>
-                          </li>
+                          </div>
                         ))}
-                      </ul>
+                      </div>
                     </div>
 
                     <Card className="bg-gray-50 border-l-4 border-l-orange-600">
                       <CardContent className="pt-6">
-                        <h4 className="font-semibold text-gray-900 mb-2">For Whom:</h4>
+                        <h4 className="font-semibold text-gray-900 mb-2">Ideal For:</h4>
                         <p className="text-gray-600">{service.forWhom}</p>
                       </CardContent>
                     </Card>

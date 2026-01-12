@@ -167,7 +167,7 @@ export const Services = () => {
           <p className="text-xl text-gray-300 mb-8">
             Let's discuss your R&D or production challenges
           </p>
-          <Link to="/contact">
+          <Link to="/get-in-touch">
             <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-6 text-lg">
               Get in Touch
               <ArrowRight className="ml-2" size={20} />

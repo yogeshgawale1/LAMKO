@@ -3,7 +3,7 @@
 export const companyInfo = {
   name: "LAMKO",
   tagline: "Your Trusted Strategic Partner in High-Purity Material Innovation",
-  description: "Technology-driven innovation bridge connecting Korean R&D with world-class manufacturing",
+  description: "We want to be a global tech and R&D-led supplier-of-choice for speciality chemicals across industries",
   location: "Seoul, South Korea",
   email: "contact@lamko.com",
   phone: "+82-2-XXXX-XXXX",

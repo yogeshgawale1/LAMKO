@@ -38,42 +38,45 @@ export const aboutContent = {
 export const services = [
   {
     id: 1,
-    title: "Innovation Gateway",
-    description: "We connect cutting-edge Korean R&D and market demand with world-class manufacturing capabilities.",
+    title: "Materials R&D Services",
+    subtitle: "CRO - Contract Research Organization",
+    description: "We act as your external lab for developing and testing new semiconductor materials, including formulation, analysis, and performance validation.",
     image: "https://images.unsplash.com/photo-1766297247924-6638d54e7c89",
     benefits: [
-      "Bridge between R&D and manufacturing",
-      "Light CDMO model focusing on high-value front end",
-      "Risk mitigation for production scale-up",
-      "Seamless technology transfer"
+      "External lab for semiconductor materials development",
+      "Formulation and composition optimization",
+      "Comprehensive analysis and characterization",
+      "Performance validation and testing"
     ],
-    forWhom: "Manufacturing partners seeking validated, ready-to-scale advanced projects"
+    forWhom: "Companies requiring specialized R&D expertise for advanced materials without building internal infrastructure"
   },
   {
     id: 2,
-    title: "Client-Led R&D",
-    description: "We work directly with top Korean tech firms to develop new products and technology.",
+    title: "Specialty Materials Production",
+    subtitle: "CMO - Contract Manufacturing Organization",
+    description: "We manufacture your specified high-purity materials at scale, ensuring consistency, quality, and cleanroom-ready packaging.",
     image: "https://images.unsplash.com/photo-1766297246906-210617be31a4",
     benefits: [
-      "Direct collaboration with Samsung, SK Hynix, LG, Dongwoo, Dongjin",
-      "Custom product development",
-      "Technology innovation partnerships",
-      "Market-driven solutions"
+      "High-purity materials manufacturing at scale",
+      "Consistent quality and batch-to-batch reliability",
+      "Cleanroom-ready packaging standards",
+      "cGMP compliant production"
     ],
-    forWhom: "Leading Korean technology companies requiring specialized materials development"
+    forWhom: "Companies needing reliable, scalable manufacturing of specialty materials with stringent purity requirements"
   },
   {
     id: 3,
-    title: "Process Intensification & Purification",
-    description: "We perfect chemical processes for yield, cost, and scalability in our labs.",
+    title: "Integrated Materials Solutions",
+    subtitle: "CRDMO - Contract Research, Development & Manufacturing Organization",
+    description: "End-to-end partnership from initial material development through scalable manufacturing and reliable supply chain delivery.",
     image: "https://images.pexels.com/photos/35609693/pexels-photo-35609693.jpeg",
     benefits: [
-      "Electronics-grade quality achievement",
-      "Final purification in Korea",
-      "Direct client troubleshooting",
-      "Optimized yield and cost efficiency"
+      "Complete R&D to manufacturing integration",
+      "Seamless technology transfer and scale-up",
+      "Reliable supply chain delivery",
+      "Single partner for entire value chain"
     ],
-    forWhom: "Clients requiring precision purification and process optimization for electronics materials"
+    forWhom: "Companies seeking complete materials solution from concept to commercial delivery with reduced risk and faster time-to-market"
   }
 ];
 

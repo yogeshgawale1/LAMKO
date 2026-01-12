@@ -8,7 +8,6 @@ import { About } from "./pages/About";
 import { CEOMessage } from "./pages/CEOMessage";
 import { OrganisationChart } from "./pages/OrganisationChart";
 import { Services } from "./pages/Services";
-import { MaterialsRD } from "./pages/services/MaterialsRD";
 import { Production } from "./pages/services/Production";
 import { Integrated } from "./pages/services/Integrated";
 import { Capabilities } from "./pages/Capabilities";
@@ -36,7 +35,6 @@ function App() {
           <Route path="/ceo-message" element={<CEOMessage />} />
           <Route path="/organisation-chart" element={<OrganisationChart />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/services/materials-rd" element={<MaterialsRD />} />
           <Route path="/services/production" element={<Production />} />
           <Route path="/services/integrated" element={<Integrated />} />
           <Route path="/capabilities" element={<Capabilities />} />

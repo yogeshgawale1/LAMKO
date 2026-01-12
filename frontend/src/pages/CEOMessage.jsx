@@ -39,7 +39,7 @@ export const CEOMessage = () => {
 
                   <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                     <p className="text-xl font-semibold text-orange-600 mb-6">
-                      새해 복 많이 받으세요. (Saehae bok mani badeuseyo.)
+                      Warm greetings for the New Year.
                     </p>
 
                     <p>
@@ -47,11 +47,11 @@ export const CEOMessage = () => {
                     </p>
 
                     <p>
-                      In an era defined by rapid technological transformation, the demand for advanced materials that power the semiconductors and displays of tomorrow has never been greater. At LAMKO, headquartered in the heart of Seoul's innovation ecosystem, we have been established with a critical mission: to be the essential catalyst that transforms pioneering Korean R&D into commercial success.
+                      In an era defined by rapid technological transformation, the demand for advanced materials that power the semiconductors and displays of tomorrow has never been greater. At LAMKO, headquartered in Seoul with global reach, we have been established with a critical mission: to be the essential catalyst that transforms pioneering R&D into commercial success worldwide.
                     </p>
 
                     <p>
-                      Our core philosophy is built on deep collaboration. By working directly with tiers 2 and global technology leaders, we ensure that every project is driven by tangible market needs. Through our integrated CRO, CMO, and CRDMO services, we specialize in perfecting the most complex and high-value stages of development, process intensification, and challenging purification to deliver electronics-grade materials that meet the world's most stringent standards.
+                      Our core philosophy is built on deep collaboration. By working directly with tier 2 and global technology leaders, we ensure that every project is driven by tangible market needs. Through our integrated CRO, CMO, and CRDMO services, we specialize in perfecting the most complex and high-value stages of development, process intensification, and challenging purification to deliver electronics-grade materials that meet the world's most stringent standards.
                     </p>
 
                     <p>
@@ -59,7 +59,7 @@ export const CEOMessage = () => {
                     </p>
 
                     <p>
-                      As we step forward into this new year, we are energized by the opportunity to build lasting partnerships. We are committed to being your trusted innovation gateway, accelerating the future of technology together.
+                      As we step forward into this new year, we are energized by the opportunity to build lasting partnerships across the globe. We are committed to being your trusted innovation gateway, accelerating the future of technology together.
                     </p>
 
                     <p className="font-semibold text-gray-900">

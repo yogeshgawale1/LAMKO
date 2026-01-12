@@ -106,7 +106,7 @@ export const Industries = () => {
               <CardContent className="pt-8">
                 <div className="text-5xl font-bold text-teal-600 mb-2">40%</div>
                 <div className="text-gray-900 font-semibold mb-2">Faster Time-to-Market</div>
-                <p className="text-gray-600 text-sm">Compared to traditional CDMO models</p>
+                <p className="text-gray-600 text-sm">Compared to traditional CRDMO models</p>
               </CardContent>
             </Card>
 

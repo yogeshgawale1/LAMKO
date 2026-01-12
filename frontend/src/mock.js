@@ -26,13 +26,13 @@ export const aboutContent = {
   coreFunction: {
     title: "Our Core Function",
     subtitle: "The Innovation Gateway",
-    description: "We connect cutting-edge Korean R&D and market demand with world-class manufacturing capabilities. Our unique 'light CDMO' model focuses on the high-value front end of the chain."
+    description: "We connect cutting-edge Korean R&D and market demand with world-class manufacturing capabilities. Our unique 'light CRDMO' model focuses on the high-value front end of the chain."
   },
   goal: {
     title: "Our Goal",
     content: "To de-risk the innovation to production journey, providing our manufacturing partners with a seamless, pre-validated pipeline of advanced projects, ready for scale."
   },
-  clients: ["Samsung", "SK Hynix", "LG", "Dongwoo", "Dongjin"]
+  clients: ["Leading Korean Tech Firms", "Global Material Innovators", "Research Institutions"]
 };
 
 export const services = [

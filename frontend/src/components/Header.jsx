@@ -86,12 +86,21 @@ export const Header = () => {
                   onMouseEnter={() => setOpenDropdown(item.name)}
                   onMouseLeave={() => setOpenDropdown(null)}
                 >
-                  <button
-                    className="flex items-center space-x-1 px-4 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-orange-600 hover:bg-gray-50 transition-colors duration-200 w-full"
-                  >
-                    <span>{item.name}</span>
-                    <ChevronDown size={16} className={`transition-transform duration-200 ${openDropdown === item.name ? 'rotate-180' : ''}`} />
-                  </button>
+                  <div className="flex items-center">
+                    {/* Main tab link */}
+                    <Link
+                      to={item.mainPath || '#'}
+                      className="px-3 py-2 rounded-l-md text-sm font-medium text-gray-700 hover:text-orange-600 hover:bg-gray-50 transition-colors duration-200"
+                    >
+                      {item.name}
+                    </Link>
+                    {/* Dropdown indicator */}
+                    <button
+                      className="px-1 py-2 rounded-r-md text-sm font-medium text-gray-700 hover:text-orange-600 hover:bg-gray-50 transition-colors duration-200"
+                    >
+                      <ChevronDown size={16} className={`transition-transform duration-200 ${openDropdown === item.name ? 'rotate-180' : ''}`} />
+                    </button>
+                  </div>
                   {openDropdown === item.name && (
                     <div 
                       className="absolute top-full left-0 mt-0 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50"

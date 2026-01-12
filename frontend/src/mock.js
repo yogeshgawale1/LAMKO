@@ -135,21 +135,17 @@ export const industries = [
   }
 ];
 
-export const lumoraContent = {
-  name: "Lumora",
-  tagline: "Advanced Materials Korea",
-  description: "Lumora represents LAMKO's vertical integration model combining Korea's innovation leadership with India's manufacturing efficiency, creating sustainable competitive advantages in the advanced materials market. Pioneering high-performance materials for semiconductors, display technologies, and specialty chemicals.",
-  image: "https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/prj99t99_20251222_2309_LAMKO_%20Innovation%20Bridge%20Korea_simple_compose_01kd367g6wf53v8jh7wxsbmq7p.png",
-  brandingImage: "https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/prj99t99_20251222_2309_LAMKO_%20Innovation%20Bridge%20Korea_simple_compose_01kd367g6wf53v8jh7wxsbmq7p.png",
-  features: [
-    "Korea's innovation leadership with Seoul-based R&D",
-    "India's manufacturing efficiency with cGMP compliance",
-    "Vertical integration for sustainable competitive advantages",
-    "Advanced materials for semiconductors, display, specialty chemicals"
-  ],
-  externalLink: "https://lumora.example.com",
-  cta: "Visit Lumora Website"
-};
+export const brands = [
+  {
+    id: 1,
+    name: "LUMORA",
+    tagline: "Advanced Materials Korea",
+    description: "Lumora represents LAMKO's vertical integration model combining Korea's innovation leadership with India's manufacturing efficiency, creating sustainable competitive advantages in the advanced materials market.",
+    brandingImage: "https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/prj99t99_20251222_2309_LAMKO_%20Innovation%20Bridge%20Korea_simple_compose_01kd367g6wf53v8jh7wxsbmq7p.png",
+    website: "https://lumorachemicals.com/",
+    industries: ["Semiconductors", "Display Technologies", "Specialty Chemicals"]
+  }
+];
 
 export const reactionCapabilities = {
   title: "Reaction Capabilities",

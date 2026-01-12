@@ -19,10 +19,10 @@ export const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Our Services & Technology
+              Our Services
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Comprehensive solutions from innovation to production-ready materials
+              CRO, CMO, and CRDMO services for high-purity materials development and manufacturing
             </p>
           </div>
         </div>

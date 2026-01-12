@@ -103,10 +103,10 @@ export const Home = () => {
                   <Zap className="text-teal-600" size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Light CRDMO Model
+                  CRDMO Model
                 </h3>
                 <p className="text-gray-600">
-                  Focus on the high-value front end of the supply chain, delivering precision purification and process optimization.
+                  Our CRDMO model combines research, development, and manufacturing under one roof. From concept to commercial delivery, we provide a seamless, integrated solution that reduces risk and accelerates time-to-market.
                 </p>
               </CardContent>
             </Card>

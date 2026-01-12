@@ -82,17 +82,17 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <Card className="border-t-4 border-t-orange-600 hover:shadow-xl transition-shadow duration-300">
               <CardContent className="pt-8">
                 <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
                   <Target className="text-orange-600" size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Strategic Location
+                  The Innovation Gateway: Your R&D Platform for Breakthrough Chemistry
                 </h3>
                 <p className="text-gray-600">
-                  Headquartered in Seoul, we're at the heart of Korea's technology ecosystem, enabling direct collaboration with industry leaders.
+                  We are the strategic R&D Platform with purification units that seamlessly connect cutting-edge Korean research with global market demand and world-class manufacturing capabilities. Our unique CRDMO model focuses precisely on the high-value front end of the innovation chain, accelerating your journey from concept to commercialization.
                 </p>
               </CardContent>
             </Card>
@@ -103,24 +103,10 @@ export const Home = () => {
                   <Zap className="text-teal-600" size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Light CDMO Model
+                  Light CRDMO Model
                 </h3>
                 <p className="text-gray-600">
                   Focus on the high-value front end of the supply chain, delivering precision purification and process optimization.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-t-4 border-t-orange-600 hover:shadow-xl transition-shadow duration-300">
-              <CardContent className="pt-8">
-                <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                  <Users className="text-orange-600" size={24} />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Elite Partnerships
-                </h3>
-                <p className="text-gray-600">
-                  Trusted by Samsung, SK Hynix, LG, Dongwoo, and Dongjin for cutting-edge materials development.
                 </p>
               </CardContent>
             </Card>

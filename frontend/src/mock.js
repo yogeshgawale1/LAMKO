@@ -38,20 +38,6 @@ export const aboutContent = {
 export const services = [
   {
     id: 1,
-    title: "Materials R&D Services",
-    subtitle: "CRO - Contract Research Organization",
-    description: "We act as your external lab for developing and testing new semiconductor materials, including formulation, analysis, and performance validation.",
-    image: "https://images.unsplash.com/photo-1766297247924-6638d54e7c89",
-    benefits: [
-      "External lab for semiconductor materials development",
-      "Formulation and composition optimization",
-      "Comprehensive analysis and characterization",
-      "Performance validation and testing"
-    ],
-    forWhom: "Companies requiring specialized R&D expertise for advanced materials without building internal infrastructure"
-  },
-  {
-    id: 2,
     title: "Specialty Materials Production",
     subtitle: "CMO - Contract Manufacturing Organization",
     description: "Precision Manufacturing, Disruptive Value. Leveraging state-of-the-art technology and cGMP facilities to deliver high-purity specialty materials. We drive down costs through innovation, ensuring you get scalable, consistent quality from pilot to commercial production.",
@@ -65,7 +51,7 @@ export const services = [
     forWhom: "Companies needing reliable, scalable manufacturing of specialty materials with stringent purity requirements"
   },
   {
-    id: 3,
+    id: 2,
     title: "Integrated Materials Solutions",
     subtitle: "CRDMO - Contract Research, Development & Manufacturing Organization",
     description: "End-to-end partnership from initial material development through scalable manufacturing and reliable supply chain delivery.",

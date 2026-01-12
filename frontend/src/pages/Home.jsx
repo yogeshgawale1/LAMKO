@@ -178,7 +178,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center">
             <div className="flex justify-center">
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/68p2e472_image.png"
@@ -211,6 +211,20 @@ export const Home = () => {
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/26ucq9m6_image.png"
                 alt="Industry Experience 5"
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/n7kf9bbn_image.png"
+                alt="Industry Experience 6"
+                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/vfzsej54_image.png"
+                alt="Industry Experience 7"
                 className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300"
               />
             </div>

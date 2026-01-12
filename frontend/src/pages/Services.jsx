@@ -17,12 +17,12 @@ export const Services = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               Our Services
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              CRO, CMO, and CRDMO services for high-purity materials development and manufacturing
+              Comprehensive CRO, CMO, and CRDMO services for high-purity materials development and manufacturing
             </p>
           </div>
         </div>

@@ -199,7 +199,7 @@ export const Header = () => {
                 </Link>
               )
             ))}
-            <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
+            <Link to="/get-in-touch" onClick={() => setIsMenuOpen(false)}>
               <Button className="w-full mt-2 bg-orange-600 hover:bg-orange-700 text-white">
                 Get Started
               </Button>

@@ -35,7 +35,7 @@ export const Services = () => {
               Complete Materials Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From research to production, we provide integrated services to accelerate your materials innovation
+              From production to complete integration, we provide comprehensive services to accelerate your materials innovation
             </p>
           </div>
 

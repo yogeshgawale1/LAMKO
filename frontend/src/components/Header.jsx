@@ -36,7 +36,16 @@ export const Header = () => {
         { name: 'Personal Care Actives', path: '/industries/personal-care' }
       ]
     },
-    { name: 'Capabilities', path: '/capabilities', hasDropdown: false },
+    {
+      name: 'Capabilities',
+      hasDropdown: true,
+      items: [
+        { name: 'Reactions', path: '/capabilities/reactions' },
+        { name: 'Facility and Infrastructure', path: '/capabilities/facility' },
+        { name: 'R&D', path: '/capabilities/rd' },
+        { name: 'Purifications Technologies', path: '/capabilities/purifications' }
+      ]
+    },
     {
       name: 'Platform/Brands',
       hasDropdown: true,
@@ -44,7 +53,7 @@ export const Header = () => {
         { name: 'LUMORA', path: '/brands/lumora' }
       ]
     },
-    { name: 'Contact', path: '/contact', hasDropdown: false }
+    { name: 'Get in Touch', path: '/get-in-touch', hasDropdown: false }
   ];
 
   const isActive = (path) => location.pathname === path;

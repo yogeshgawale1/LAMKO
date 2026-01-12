@@ -22,7 +22,7 @@ export const CEOMessage = () => {
                 {/* CEO Photo - 2 columns */}
                 <div className="md:col-span-2 relative">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/l4lbl2e4_7.jpg"
+                    src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/b9usxd6z_AdobeExpressPhotos_8c88e6d7e79f4ebab47dea9b32dd25ef_CopyEdited.jpg"
                     alt="CEO"
                     className="w-full h-full object-cover"
                   />

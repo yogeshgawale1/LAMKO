@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CheckCircle2, ArrowRight, Beaker, FlaskConical, Microscope } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Beaker, Factory, Zap } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { services } from '../mock';
@@ -8,8 +8,8 @@ import { services } from '../mock';
 export const Services = () => {
   const iconMap = {
     1: Beaker,
-    2: FlaskConical,
-    3: Microscope
+    2: Factory,
+    3: Zap
   };
 
   return (

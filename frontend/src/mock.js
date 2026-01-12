@@ -54,7 +54,7 @@ export const services = [
     id: 2,
     title: "Specialty Materials Production",
     subtitle: "CMO - Contract Manufacturing Organization",
-    description: "We manufacture your specified high-purity materials at scale, ensuring consistency, quality, and cleanroom-ready packaging.",
+    description: "Precision Manufacturing, Disruptive Value. Leveraging state-of-the-art technology and cGMP facilities to deliver high-purity specialty materials. We drive down costs through innovation, ensuring you get scalable, consistent quality from pilot to commercial production.",
     image: "https://images.unsplash.com/photo-1766297246906-210617be31a4",
     benefits: [
       "High-purity materials manufacturing at scale",

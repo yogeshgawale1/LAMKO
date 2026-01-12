@@ -99,18 +99,30 @@ export const Header = () => {
                       onMouseLeave={() => setOpenDropdown(null)}
                     >
                       {item.items.map((subItem) => (
-                        <Link
-                          key={subItem.path}
-                          to={subItem.path}
-                          className={`block px-4 py-2 text-sm ${
-                            isActive(subItem.path)
-                              ? 'text-orange-600 bg-orange-50'
-                              : 'text-gray-700 hover:text-orange-600 hover:bg-gray-50'
-                          } transition-colors duration-200`}
-                          onClick={() => setOpenDropdown(null)}
-                        >
-                          {subItem.name}
-                        </Link>
+                        subItem.external ? (
+                          <a
+                            key={subItem.path}
+                            href={subItem.path}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block px-4 py-2 text-sm text-gray-700 hover:text-orange-600 hover:bg-gray-50 transition-colors duration-200"
+                          >
+                            {subItem.name}
+                          </a>
+                        ) : (
+                          <Link
+                            key={subItem.path}
+                            to={subItem.path}
+                            className={`block px-4 py-2 text-sm ${
+                              isActive(subItem.path)
+                                ? 'text-orange-600 bg-orange-50'
+                                : 'text-gray-700 hover:text-orange-600 hover:bg-gray-50'
+                            } transition-colors duration-200`}
+                            onClick={() => setOpenDropdown(null)}
+                          >
+                            {subItem.name}
+                          </Link>
+                        )
                       ))}
                     </div>
                   )}

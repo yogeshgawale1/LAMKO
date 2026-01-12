@@ -25,7 +25,6 @@ export const Header = () => {
       hasDropdown: true,
       mainPath: '/services',
       items: [
-        { name: 'Materials R&D Services', path: '/services/materials-rd' },
         { name: 'Specialty Materials Production', path: '/services/production' },
         { name: 'Integrated Materials Solutions', path: '/services/integrated' }
       ]

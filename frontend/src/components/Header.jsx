@@ -12,6 +12,7 @@ export const Header = () => {
     {
       name: 'Company',
       hasDropdown: true,
+      mainPath: '/',
       items: [
         { name: 'Home', path: '/' },
         { name: 'About', path: '/about' },
@@ -22,6 +23,7 @@ export const Header = () => {
     {
       name: 'Services',
       hasDropdown: true,
+      mainPath: '/services',
       items: [
         { name: 'Materials R&D Services', path: '/services/materials-rd' },
         { name: 'Specialty Materials Production', path: '/services/production' },
@@ -31,6 +33,7 @@ export const Header = () => {
     {
       name: 'Industries',
       hasDropdown: true,
+      mainPath: '/industries',
       items: [
         { name: 'Semiconductor', path: '/industries/semiconductor' },
         { name: 'Display', path: '/industries/display' },
@@ -41,6 +44,7 @@ export const Header = () => {
     {
       name: 'Capabilities',
       hasDropdown: true,
+      mainPath: '/capabilities',
       items: [
         { name: 'Research and Development', path: '/capabilities/rd' },
         { name: 'Purification Technologies', path: '/capabilities/purifications' },
@@ -51,6 +55,7 @@ export const Header = () => {
     {
       name: 'Platform/Brands',
       hasDropdown: true,
+      mainPath: '/brands',
       items: [
         { name: 'LUMORA', path: 'https://lumorachemicals.com/', external: true }
       ]

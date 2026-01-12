@@ -8,7 +8,7 @@ import { About } from "./pages/About";
 import { Services } from "./pages/Services";
 import { Capabilities } from "./pages/Capabilities";
 import { Industries } from "./pages/Industries";
-import { Lumora } from "./pages/Lumora";
+import { Brands } from "./pages/Brands";
 import { Contact } from "./pages/Contact";
 import { Toaster } from "./components/ui/sonner";
 
@@ -23,7 +23,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/capabilities" element={<Capabilities />} />
           <Route path="/industries" element={<Industries />} />
-          <Route path="/lumora" element={<Lumora />} />
+          <Route path="/brands" element={<Brands />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

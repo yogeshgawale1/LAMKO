@@ -58,7 +58,7 @@ export const Services = () => {
 
                   <div className={isEven ? 'md:order-2' : 'md:order-1'}>
                     <div className="inline-block px-4 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold mb-4">
-                      Service {service.id}
+                      {service.subtitle}
                     </div>
                     <h2 className="text-4xl font-bold text-gray-900 mb-4">
                       {service.title}

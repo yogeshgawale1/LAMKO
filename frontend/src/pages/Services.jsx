@@ -7,9 +7,8 @@ import { services } from '../mock';
 
 export const Services = () => {
   const iconMap = {
-    1: Beaker,
-    2: Factory,
-    3: Zap
+    1: Factory,
+    2: Zap
   };
 
   return (

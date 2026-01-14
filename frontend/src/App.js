@@ -18,7 +18,6 @@ import { ProductionPlants } from "./pages/capabilities/ProductionPlants";
 import { Industries } from "./pages/Industries";
 import { Semiconductor } from "./pages/industries/Semiconductor";
 import { Display } from "./pages/industries/Display";
-import { SpecialtyChemicals } from "./pages/industries/SpecialtyChemicals";
 import { PersonalCare } from "./pages/industries/PersonalCare";
 import { Brands } from "./pages/Brands";
 import { GetInTouch } from "./pages/GetInTouch";
@@ -45,7 +44,6 @@ function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/industries/semiconductor" element={<Semiconductor />} />
           <Route path="/industries/display" element={<Display />} />
-          <Route path="/industries/specialty-chemicals" element={<SpecialtyChemicals />} />
           <Route path="/industries/personal-care" element={<PersonalCare />} />
           <Route path="/brands" element={<Brands />} />
           <Route path="/get-in-touch" element={<GetInTouch />} />

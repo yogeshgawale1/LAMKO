@@ -8,15 +8,15 @@ export const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-gray-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
-          <div className="col-span-1 md:col-span-2">
-            <div className="text-2xl font-bold mb-4">
+          <div className="sm:col-span-2 lg:col-span-2">
+            <div className="text-xl md:text-2xl font-bold mb-3 md:mb-4">
               <span className="text-orange-500">LAM</span>
               <span className="text-teal-500">KO</span>
             </div>
-            <p className="text-gray-400 mb-4 max-w-md">
+            <p className="text-gray-400 mb-4 max-w-md text-sm md:text-base">
               {companyInfo.description}
             </p>
             <div className="flex space-x-4">
@@ -39,35 +39,35 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-orange-500 transition-colors duration-200">
+                <Link to="/" className="text-gray-400 hover:text-orange-500 transition-colors duration-200 text-sm md:text-base">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-400 hover:text-orange-500 transition-colors duration-200">
+                <Link to="/about" className="text-gray-400 hover:text-orange-500 transition-colors duration-200 text-sm md:text-base">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-gray-400 hover:text-orange-500 transition-colors duration-200">
+                <Link to="/services" className="text-gray-400 hover:text-orange-500 transition-colors duration-200 text-sm md:text-base">
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="/capabilities" className="text-gray-400 hover:text-orange-500 transition-colors duration-200">
+                <Link to="/capabilities" className="text-gray-400 hover:text-orange-500 transition-colors duration-200 text-sm md:text-base">
                   Capabilities
                 </Link>
               </li>
               <li>
-                <Link to="/industries" className="text-gray-400 hover:text-orange-500 transition-colors duration-200">
+                <Link to="/industries" className="text-gray-400 hover:text-orange-500 transition-colors duration-200 text-sm md:text-base">
                   Industries
                 </Link>
               </li>
               <li>
-                <Link to="/brands" className="text-gray-400 hover:text-orange-500 transition-colors duration-200">
+                <Link to="/brands" className="text-gray-400 hover:text-orange-500 transition-colors duration-200 text-sm md:text-base">
                   Brands
                 </Link>
               </li>
@@ -76,28 +76,28 @@ export const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Contact</h3>
+            <h3 className="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
-                <MapPin size={18} className="text-orange-500 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">{companyInfo.location}</span>
+                <MapPin size={16} className="text-orange-500 mt-1 flex-shrink-0" />
+                <span className="text-gray-400 text-sm md:text-base">{companyInfo.location}</span>
               </li>
               <li className="flex items-start space-x-3">
-                <Mail size={18} className="text-orange-500 mt-1 flex-shrink-0" />
-                <a href={`mailto:${companyInfo.email}`} className="text-gray-400 hover:text-orange-500 transition-colors duration-200">
+                <Mail size={16} className="text-orange-500 mt-1 flex-shrink-0" />
+                <a href={`mailto:${companyInfo.email}`} className="text-gray-400 hover:text-orange-500 transition-colors duration-200 text-sm md:text-base break-all">
                   {companyInfo.email}
                 </a>
               </li>
               <li className="flex items-start space-x-3">
-                <Phone size={18} className="text-orange-500 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">{companyInfo.phone}</span>
+                <Phone size={16} className="text-orange-500 mt-1 flex-shrink-0" />
+                <span className="text-gray-400 text-sm md:text-base">{companyInfo.phone}</span>
               </li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
+        <div className="border-t border-gray-800 mt-8 md:mt-12 pt-6 md:pt-8 text-center text-gray-500 text-xs md:text-sm">
           <p>&copy; {currentYear} LAMKO. All rights reserved.</p>
         </div>
       </div>

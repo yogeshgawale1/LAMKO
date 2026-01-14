@@ -70,7 +70,7 @@ export const industries = [
   {
     id: 1,
     name: "Semiconductor",
-    description: "Advanced materials and chemicals for semiconductor manufacturing processes, enabling next-generation chip production.",
+    description: "We develop and manufacture high-purity chemicals and materials for the fab, including photoresists, etchants, CMP slurries, and precursors. Our expertise in purification ensures that every batch meets the stringent quality demands of advanced node manufacturing, delivered with traceable, production-ready consistency.",
     image: "https://images.unsplash.com/photo-1760842543741-876d7837fa0b",
     applications: [
       "Photoresists and specialty chemicals",
@@ -83,7 +83,7 @@ export const industries = [
   {
     id: 2,
     name: "Display",
-    description: "Cutting-edge materials for OLED, LCD, and next-generation display technologies.",
+    description: "From OLED emitters and host materials to LCD alignment agents and quantum dot precursors, we develop and produce the specialty chemicals critical for next-generation displays. Our rigorous quality control—including sublimation purification and trace metal analysis—ensures materials that meet your performance specifications.",
     image: "https://images.unsplash.com/photo-1765256931287-e7f0e36b9ba4",
     applications: [
       "OLED materials and intermediates",
@@ -95,21 +95,8 @@ export const industries = [
   },
   {
     id: 3,
-    name: "Specialty Chemicals",
-    description: "High-performance specialty chemicals for diverse industrial applications.",
-    image: "https://images.pexels.com/photos/3665442/pexels-photo-3665442.jpeg",
-    applications: [
-      "Advanced intermediates",
-      "High-purity materials",
-      "Custom synthesis solutions",
-      "Process optimization"
-    ],
-    outcomes: "Superior quality, scalable processes, reliable supply chain"
-  },
-  {
-    id: 4,
     name: "Personal Care Actives",
-    description: "Premium active ingredients for cosmetic and personal care applications.",
+    description: "We synthesize and scale advanced active ingredients for cosmetics and skincare—peptides, botanical extracts, and novel functional molecules. Our expertise translates lab discoveries into stable, efficacious, and regulatory-compliant actives ready for formulation.",
     image: "https://images.unsplash.com/photo-1764694187667-f28a05a52c0e",
     applications: [
       "Active cosmetic ingredients",

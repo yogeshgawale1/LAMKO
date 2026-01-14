@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Cpu, Monitor, Sparkles, Heart } from 'lucide-react';
+import { ArrowRight, Cpu, Monitor, Heart } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { industries } from '../mock';
@@ -9,8 +9,13 @@ export const Industries = () => {
   const iconMap = {
     1: Cpu,
     2: Monitor,
-    3: Sparkles,
-    4: Heart
+    3: Heart
+  };
+
+  const linkMap = {
+    1: '/industries/semiconductor',
+    2: '/industries/display',
+    3: '/industries/personal-care'
   };
 
   return (

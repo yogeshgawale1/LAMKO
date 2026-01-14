@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Target, Zap, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Target, Zap, CheckCircle2, MapPin } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { heroContent, aboutContent, stats, services } from '../mock';
@@ -71,42 +71,53 @@ export const Home = () => {
       </section>
 
       {/* Core Value Proposition */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-10 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               {aboutContent.coreFunction.subtitle}
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {aboutContent.coreFunction.description}
-            </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="border-t-4 border-t-orange-600 hover:shadow-xl transition-shadow duration-300">
-              <CardContent className="pt-8">
-                <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                  <Target className="text-orange-600" size={24} />
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+            <Card className="border-t-4 border-t-teal-600 hover:shadow-xl transition-shadow duration-300">
+              <CardContent className="pt-6 md:pt-8">
+                <div className="w-10 h-10 md:w-12 md:h-12 bg-teal-100 rounded-lg flex items-center justify-center mb-3 md:mb-4">
+                  <Zap className="text-teal-600" size={20} />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Strategic Seoul Location
+                <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">
+                  Strategic R&D Platform
                 </h3>
-                <p className="text-gray-600">
-                  Headquartered in Seoul, we're at the heart of Korea's innovation ecosystem, enabling seamless collaboration with leading researchers and global markets.
+                <p className="text-sm md:text-base text-gray-600">
+                  Seamlessly connecting cutting-edge Korean research with global market demand and world-class manufacturing capabilities.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-t-4 border-t-orange-600 hover:shadow-xl transition-shadow duration-300">
+              <CardContent className="pt-6 md:pt-8">
+                <div className="w-10 h-10 md:w-12 md:h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-3 md:mb-4">
+                  <Target className="text-orange-600" size={20} />
+                </div>
+                <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">
+                  CRDMO Model
+                </h3>
+                <p className="text-sm md:text-base text-gray-600">
+                  Our unique model focuses on the high-value front end of the innovation chain, accelerating your journey from concept to commercialization.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="border-t-4 border-t-teal-600 hover:shadow-xl transition-shadow duration-300">
-              <CardContent className="pt-8">
-                <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center mb-4">
-                  <Zap className="text-teal-600" size={24} />
+              <CardContent className="pt-6 md:pt-8">
+                <div className="w-10 h-10 md:w-12 md:h-12 bg-teal-100 rounded-lg flex items-center justify-center mb-3 md:mb-4">
+                  <MapPin className="text-teal-600" size={20} />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  CRDMO Model
+                <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">
+                  Seoul Headquarters
                 </h3>
-                <p className="text-gray-600">
-                  Our CRDMO model combines research, development, and manufacturing under one roof. From concept to commercial delivery, we provide a seamless, integrated solution that reduces risk and accelerates time-to-market.
+                <p className="text-sm md:text-base text-gray-600">
+                  At the heart of Korea's innovation ecosystem, enabling seamless collaboration with leading researchers and global markets.
                 </p>
               </CardContent>
             </Card>

@@ -22,24 +22,24 @@ export const Home = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="md:text-7xl !font-bold !text-5xl !mb-[18px] text-white">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 md:mb-6 tracking-tight">
             {heroContent.title}
           </h1>
-          <p className="text-xl md:text-2xl text-teal-400 mb-4 font-medium">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-teal-400 mb-3 md:mb-4 font-medium">
             {heroContent.subtitle}
           </p>
-          <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
+          <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-6 md:mb-8 max-w-3xl mx-auto">
             {heroContent.description}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center px-4">
             <Link to="/services">
-              <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-6 text-lg">
+              <Button size="lg" className="w-full sm:w-auto bg-orange-600 hover:bg-orange-700 text-white px-6 md:px-8 py-4 md:py-6 text-base md:text-lg">
                 {heroContent.cta}
                 <ArrowRight className="ml-2" size={20} />
               </Button>
             </Link>
-            <Link to="/contact">
-              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-6 text-lg">
+            <Link to="/get-in-touch">
+              <Button size="lg" variant="outline" className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-gray-900 px-6 md:px-8 py-4 md:py-6 text-base md:text-lg">
                 Contact Us
               </Button>
             </Link>

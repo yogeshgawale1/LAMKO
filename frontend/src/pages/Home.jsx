@@ -89,10 +89,10 @@ export const Home = () => {
                   <Target className="text-orange-600" size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  The Innovation Gateway: Your R&D Platform for Breakthrough Chemistry
+                  Strategic Seoul Location
                 </h3>
                 <p className="text-gray-600">
-                  We are the strategic R&D Platform with purification units that seamlessly connect cutting-edge Korean research with global market demand and world-class manufacturing capabilities. Our unique CRDMO model focuses precisely on the high-value front end of the innovation chain, accelerating your journey from concept to commercialization.
+                  Headquartered in Seoul, we're at the heart of Korea's innovation ecosystem, enabling seamless collaboration with leading researchers and global markets.
                 </p>
               </CardContent>
             </Card>

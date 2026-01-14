@@ -36,7 +36,6 @@ export const Header = () => {
       items: [
         { name: 'Semiconductor', path: '/industries/semiconductor' },
         { name: 'Display', path: '/industries/display' },
-        { name: 'Specialty Chemicals', path: '/industries/specialty-chemicals' },
         { name: 'Personal Care Actives', path: '/industries/personal-care' }
       ]
     },

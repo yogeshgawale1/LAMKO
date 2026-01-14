@@ -1,21 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Cpu, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Cpu, CheckCircle2, FlaskConical, Shield, Microscope, HeadphonesIcon } from 'lucide-react';
 import { Button } from '../../components/ui/button';
 import { Card, CardContent } from '../../components/ui/card';
 
 export const Semiconductor = () => {
-  const applications = [
-    "Photoresists and specialty chemicals",
-    "High-purity process materials",
-    "Advanced packaging materials",
-    "Etch and deposition chemistries"
-  ];
-
-  const outcomes = [
-    "Faster time-to-market",
-    "Reduced production risk",
-    "Electronics-grade purity"
+  const expertiseItems = [
+    {
+      icon: FlaskConical,
+      title: "CRDMO Services",
+      description: "We provide end-to-end solutions—from contract research and custom synthesis of small-molecule monomers based on client specifications to scalable development and manufacturing—ensuring materials are tailored to your specific lithographic requirements."
+    },
+    {
+      icon: Shield,
+      title: "Ultra-Purification",
+      description: "We apply rigorous purification techniques, including filtration, crystallization, flash chromatography, zone refining, wiped-film evaporation, and high-vacuum distillation, to eliminate impurities, control moisture, and reduce metal ions and halides to ultralow levels, ensuring exceptional batch-to-batch consistency."
+    },
+    {
+      icon: Microscope,
+      title: "Rigorous Characterization",
+      description: "Every synthesized material undergoes thorough verification of structure and purity using advanced analytical techniques such as ICP-MS (for parts-per-trillion detection), GC-MS, NMR, and FTIR, guaranteeing performance and reliability in the most demanding photoresist formulations."
+    },
+    {
+      icon: HeadphonesIcon,
+      title: "Comprehensive Support",
+      description: "We offer end-to-end technical assistance, including troubleshooting, purification guidance, and responsive after-sales support, to ensure seamless integration and sustained performance of materials in your production environment."
+    }
   ];
 
   return (
@@ -24,48 +34,64 @@ export const Semiconductor = () => {
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Cpu className="w-12 h-12 md:w-16 md:h-16 text-orange-600 mb-4 md:mb-6" />
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">Semiconductor</h1>
-          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl">
-            We develop and manufacture high-purity chemicals and materials for the fab, including photoresists, etchants, CMP slurries, and precursors. Our expertise in purification ensures that every batch meets the stringent quality demands of advanced node manufacturing, delivered with traceable, production-ready consistency.
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">Semiconductor Materials</h1>
+          <p className="text-lg sm:text-xl md:text-2xl text-teal-400 font-medium mb-4">
+            Precision Chemicals for Advanced Photoresist Polymers
           </p>
         </div>
       </section>
 
-      {/* Content Section */}
-      <section className="py-12 md:py-20 bg-white">
+      {/* Main Description Section */}
+      <section className="py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8 md:gap-12">
-            <div className="order-2 md:order-1">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+            <div>
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6">
+                At LAMKO, we synthesize high-purity specialty monomers, ionomers, and oligomers for advanced photoresist applications. Our custom-developed materials are engineered to meet the exacting demands of modern semiconductor lithography across g/i-line, KrF, ArF, and EUV processes.
+              </p>
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+                Each compound is tailored with specific functional groups, such as acid-decomposable or base-labile units, to ensure optimal performance at your target exposure wavelength.
+              </p>
+            </div>
+            <div>
               <img 
                 src="https://images.unsplash.com/photo-1760842543741-876d7837fa0b" 
                 alt="Semiconductor Manufacturing" 
                 className="rounded-lg shadow-2xl w-full h-auto object-cover" 
               />
             </div>
-            <div className="order-1 md:order-2">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">Key Applications</h2>
-              <ul className="space-y-3 mb-6 md:mb-8">
-                {applications.map((app, idx) => (
-                  <li key={idx} className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-orange-600 rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-base md:text-lg text-gray-700">{app}</span>
-                  </li>
-                ))}
-              </ul>
-              <Card className="bg-orange-50">
-                <CardContent className="pt-6">
-                  <h3 className="font-semibold text-gray-900 mb-3">Outcomes:</h3>
-                  <ul className="space-y-2">
-                    {outcomes.map((outcome, idx) => (
-                      <li key={idx} className="flex items-center space-x-2 text-gray-700">
-                        <CheckCircle2 size={16} className="text-orange-600 flex-shrink-0" />
-                        <span>{outcome}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Expertise Section */}
+      <section className="py-12 md:py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Our Synthesis, Production and Purification Expertise
+            </h2>
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-6 md:gap-8">
+            {expertiseItems.map((item, idx) => {
+              const Icon = item.icon;
+              return (
+                <Card key={idx} className="hover:shadow-xl transition-shadow duration-300 border-l-4 border-l-orange-600">
+                  <CardContent className="pt-6">
+                    <div className="flex items-start space-x-4">
+                      <div className="w-10 h-10 md:w-12 md:h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Icon className="text-orange-600" size={20} />
+                      </div>
+                      <div>
+                        <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
+                        <p className="text-sm md:text-base text-gray-600 leading-relaxed">{item.description}</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -74,6 +100,9 @@ export const Semiconductor = () => {
       <section className="py-12 md:py-20 bg-gray-900 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Let's Advance Your Semiconductor Materials</h2>
+          <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-8">
+            Partner with us for precision chemicals that meet your lithographic requirements
+          </p>
           <Link to="/get-in-touch">
             <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
               Contact Us

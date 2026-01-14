@@ -28,7 +28,7 @@ export const Industries = () => {
               Industries We Serve
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Advanced materials solutions across semiconductor, display, specialty chemicals, and personal care industries
+              Advanced materials solutions across semiconductor, display, and personal care industries
             </p>
           </div>
         </div>
@@ -37,49 +37,39 @@ export const Industries = () => {
       {/* Industries Grid */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
             {industries.map((industry) => {
               const Icon = iconMap[industry.id];
               return (
-                <Card key={industry.id} className="group hover:shadow-2xl transition-all duration-300 overflow-hidden border-2 hover:border-orange-600">
-                  <div className="relative h-64 overflow-hidden">
-                    <img
-                      src={industry.image}
-                      alt={industry.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/50 to-transparent"></div>
-                    <div className="absolute bottom-6 left-6 flex items-center space-x-3">
-                      <div className="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center">
-                        <Icon className="text-white" size={24} />
+                <Link to={linkMap[industry.id]} key={industry.id}>
+                  <Card className="group hover:shadow-2xl transition-all duration-300 overflow-hidden border-2 hover:border-orange-600 h-full">
+                    <div className="relative h-48 md:h-64 overflow-hidden">
+                      <img
+                        src={industry.image}
+                        alt={industry.name}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/50 to-transparent"></div>
+                      <div className="absolute bottom-4 md:bottom-6 left-4 md:left-6 flex items-center space-x-3">
+                        <div className="w-10 h-10 md:w-12 md:h-12 bg-orange-600 rounded-lg flex items-center justify-center">
+                          <Icon className="text-white" size={20} />
+                        </div>
+                        <h3 className="text-xl md:text-2xl font-bold text-white">{industry.name}</h3>
                       </div>
-                      <h3 className="text-3xl font-bold text-white">{industry.name}</h3>
-                    </div>
-                  </div>
-
-                  <CardContent className="pt-6">
-                    <p className="text-gray-600 mb-6 leading-relaxed">
-                      {industry.description}
-                    </p>
-
-                    <div className="mb-6">
-                      <h4 className="text-lg font-semibold text-gray-900 mb-3">Key Applications:</h4>
-                      <ul className="space-y-2">
-                        {industry.applications.map((app, idx) => (
-                          <li key={idx} className="flex items-start space-x-2">
-                            <div className="w-1.5 h-1.5 bg-teal-600 rounded-full mt-2 flex-shrink-0"></div>
-                            <span className="text-gray-700">{app}</span>
-                          </li>
-                        ))}
-                      </ul>
                     </div>
 
-                    <div className="bg-orange-50 border-l-4 border-l-orange-600 p-4 rounded">
-                      <h4 className="font-semibold text-gray-900 mb-2">Outcomes:</h4>
-                      <p className="text-gray-700 text-sm">{industry.outcomes}</p>
-                    </div>
-                  </CardContent>
-                </Card>
+                    <CardContent className="pt-4 md:pt-6">
+                      <p className="text-gray-600 mb-4 md:mb-6 leading-relaxed text-sm md:text-base line-clamp-3">
+                        {industry.description}
+                      </p>
+
+                      <div className="bg-orange-50 border-l-4 border-l-orange-600 p-3 md:p-4 rounded">
+                        <h4 className="font-semibold text-gray-900 mb-1 md:mb-2 text-sm md:text-base">Outcomes:</h4>
+                        <p className="text-gray-700 text-xs md:text-sm">{industry.outcomes}</p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
               );
             })}
           </div>

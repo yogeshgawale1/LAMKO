@@ -69,8 +69,8 @@ export const services = [
 export const industries = [
   {
     id: 1,
-    name: "Semiconductor",
-    description: "We develop and manufacture high-purity chemicals and materials for the fab, including photoresists, etchants, CMP slurries, and precursors. Our expertise in purification ensures that every batch meets the stringent quality demands of advanced node manufacturing, delivered with traceable, production-ready consistency.",
+    name: "Semiconductor Materials",
+    description: "At LAMKO, we synthesize high-purity specialty monomers, ionomers, and oligomers for advanced photoresist applications. Our custom-developed materials are engineered to meet the exacting demands of modern semiconductor lithography across g/i-line, KrF, ArF, and EUV processes.",
     image: "https://images.unsplash.com/photo-1760842543741-876d7837fa0b",
     applications: [
       "Photoresists and specialty chemicals",
@@ -83,28 +83,28 @@ export const industries = [
   {
     id: 2,
     name: "Display",
-    description: "From OLED emitters and host materials to LCD alignment agents and quantum dot precursors, we develop and produce the specialty chemicals critical for next-generation displays. Our rigorous quality control—including sublimation purification and trace metal analysis—ensures materials that meet your performance specifications.",
+    description: "At LAMKO, we provide end-to-end CRDMO services for building blocks, intermediates, HOST, ETL, and custom stack materials for cutting-edge OLED and next-generation display technologies.",
     image: "https://images.unsplash.com/photo-1765256931287-e7f0e36b9ba4",
     applications: [
       "OLED materials and intermediates",
-      "LCD specialty chemicals",
-      "Display coating materials",
-      "Color filter components"
+      "HOST, HTL, HIL, ETL layers",
+      "Custom stack materials",
+      "Sublimed-grade emitters"
     ],
     outcomes: "Enhanced display performance, cost-optimized production, innovation acceleration"
   },
   {
     id: 3,
     name: "Personal Care Actives",
-    description: "We synthesize and scale advanced active ingredients for cosmetics and skincare—peptides, botanical extracts, and novel functional molecules. Our expertise translates lab discoveries into stable, efficacious, and regulatory-compliant actives ready for formulation.",
+    description: "At LAMKO, we deliver premium, sustainably produced active ingredients for cosmetic and personal care applications through our end-to-end CRDMO/CDMO services.",
     image: "https://images.unsplash.com/photo-1764694187667-f28a05a52c0e",
     applications: [
-      "Active cosmetic ingredients",
-      "Skincare formulation components",
-      "Premium personal care materials",
-      "Innovation-driven actives"
+      "Antioxidants and UV filters",
+      "Naturally derived emollients",
+      "Antifungal compounds",
+      "Sustainable actives"
     ],
-    outcomes: "High efficacy, proven safety, market differentiation"
+    outcomes: "High efficacy, proven safety, reduced ecological footprint"
   }
 ];
 

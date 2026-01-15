@@ -12,10 +12,13 @@ export const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="sm:col-span-2 lg:col-span-2">
-            <div className="text-xl md:text-2xl font-bold mb-3 md:mb-4">
-              <span className="text-orange-500">LAM</span>
-              <span className="text-teal-500">KO</span>
-            </div>
+            <Link to="/" className="inline-block mb-3 md:mb-4">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/cvxkq0by_20260115_1958_Image%20Generation_remix_01kf0mvvxxf1b9yvq8pj88851v.png" 
+                alt="LAMKO" 
+                className="h-8 md:h-10 w-auto brightness-0 invert"
+              />
+            </Link>
             <p className="text-gray-400 mb-4 max-w-md text-sm md:text-base">
               {companyInfo.description}
             </p>

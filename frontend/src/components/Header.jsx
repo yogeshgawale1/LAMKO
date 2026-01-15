@@ -71,11 +71,12 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-gray-900">
-              <span className="text-orange-600">LAM</span>
-              <span className="text-teal-600">KO</span>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/cvxkq0by_20260115_1958_Image%20Generation_remix_01kf0mvvxxf1b9yvq8pj88851v.png" 
+              alt="LAMKO" 
+              className="h-10 md:h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

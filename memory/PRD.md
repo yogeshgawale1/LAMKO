@@ -25,26 +25,28 @@ Build a professional B2B company website for LAMKO, a technology company special
 - [x] Home page with hero, stats, services preview, industry experience section
 - [x] About page with company info, core function, goals
 - [x] Services page (CMO - Specialty Materials Production, CRDMO - Integrated Materials Solutions)
-- [x] Industries page (Semiconductor, Display, Personal Care Actives)
+- [x] Industries page (Semiconductor Materials, Display, Personal Care Actives)
 - [x] Capabilities pages (R&D, Purifications, Facility, Production Plants)
 - [x] Brands page with LUMORA external link
 - [x] Get in Touch page with detailed contact form
 - [x] CEO Message and Organisation Chart pages
 - [x] Footer with contact info and quick links
 - [x] Mobile responsive design across all pages
-- [x] Content updates for Semiconductor, Display, Personal Care pages
 - [x] Removed "Specialty Chemicals" from navigation and site
 
 ### Latest Updates (December 2025)
-1. Updated Semiconductor page content with detailed description
-2. Updated Display page content with OLED/LCD focus
-3. Updated Personal Care Actives page content
-4. Removed "Specialty Chemicals" from Industries dropdown
-5. Applied comprehensive mobile responsiveness fixes to all pages:
-   - Responsive typography (sm:, md:, lg: breakpoints)
-   - Adaptive spacing and padding
-   - Mobile-friendly navigation (hamburger menu)
-   - Responsive grid layouts
+1. Fixed "Innovation Gateway" section repetition on Home page - now displays cleanly with 3 value cards
+2. Updated **Semiconductor Materials** page with detailed content:
+   - "Precision Chemicals for Advanced Photoresist Polymers"
+   - CRDMO Services, Ultra-Purification, Rigorous Characterization, Comprehensive Support sections
+3. Updated **Display** page with detailed content:
+   - "Cutting-edge materials for OLED, and next-generation display technologies"
+   - CRDMO Services, OLED Materials Production, Tailored Solutions, Comprehensive Support sections
+4. Updated **Personal Care Actives** page with detailed content:
+   - "Sustainable, High-Performance Ingredients for Conscious Cosmetics"
+   - CRDMO/CDMO Services, Scalable Production, Purification, Compliance & Transparency sections
+5. Renamed "Semiconductor" to "Semiconductor Materials" in navigation dropdown
+6. Applied comprehensive mobile responsiveness fixes to all pages
 
 ## Pending/Backlog Tasks
 

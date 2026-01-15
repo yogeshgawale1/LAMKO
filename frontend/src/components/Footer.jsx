@@ -16,7 +16,7 @@ export const Footer = () => {
               <img 
                 src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/cvxkq0by_20260115_1958_Image%20Generation_remix_01kf0mvvxxf1b9yvq8pj88851v.png" 
                 alt="LAMKO" 
-                className="h-8 md:h-10 w-auto brightness-0 invert"
+                className="h-8 md:h-10 w-auto"
               />
             </Link>
             <p className="text-gray-400 mb-4 max-w-md text-sm md:text-base">

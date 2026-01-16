@@ -73,9 +73,9 @@ export const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/cvxkq0by_20260115_1958_Image%20Generation_remix_01kf0mvvxxf1b9yvq8pj88851v.png" 
+              src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/rdim59xo_20260115_1848_Image%20Generation_remix_01kf0gtfk4em2bqpashv737ctv.png" 
               alt="LAMKO" 
-              className="h-10 md:h-12 w-auto"
+              className="h-12 md:h-14 w-auto"
             />
           </Link>
 

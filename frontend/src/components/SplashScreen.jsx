@@ -56,7 +56,7 @@ export const SplashScreen = ({ onComplete }) => {
       <video
         ref={videoRef}
         src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/9gclcc1o_generated-video.mp4"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-contain md:object-cover"
         muted
         playsInline
         autoPlay

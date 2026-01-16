@@ -93,7 +93,7 @@ export const Production = () => {
           <p className="text-xl text-teal-100 mb-8">
             Let's discuss your manufacturing requirements
           </p>
-          <Link to="/contact">
+          <Link to="/get-in-touch">
             <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-6 text-lg">
               Contact Our Team
               <ArrowRight className="ml-2" size={20} />

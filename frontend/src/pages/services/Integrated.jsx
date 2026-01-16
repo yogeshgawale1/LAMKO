@@ -143,7 +143,7 @@ export const Integrated = () => {
           <p className="text-xl text-orange-100 mb-8">
             Let's discuss your end-to-end materials solution
           </p>
-          <Link to="/contact">
+          <Link to="/get-in-touch">
             <Button size="lg" className="bg-white text-orange-900 hover:bg-gray-100 px-8 py-6 text-lg">
               Contact Our Team
               <ArrowRight className="ml-2" size={20} />

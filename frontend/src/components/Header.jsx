@@ -183,7 +183,7 @@ export const Header = () => {
                 <div key={item.name}>
                   <button
                     onClick={() => handleDropdownToggle(item.name)}
-                    className="w-full flex items-center justify-between px-4 py-3 rounded-md text-base font-medium text-gray-700 hover:text-orange-600 hover:bg-gray-50"
+                    className="w-full flex items-center justify-between px-4 py-3 rounded-md text-base font-medium text-gray-200 hover:text-orange-400 hover:bg-gray-800"
                   >
                     <span>{item.name}</span>
                     <ChevronDown size={16} className={`transition-transform duration-200 ${openDropdown === item.name ? 'rotate-180' : ''}`} />
@@ -197,7 +197,7 @@ export const Header = () => {
                             href={subItem.path}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="block px-4 py-2 rounded-md text-sm text-gray-700 hover:text-orange-600 hover:bg-gray-50"
+                            className="block px-4 py-2 rounded-md text-sm text-gray-300 hover:text-orange-400 hover:bg-gray-800"
                           >
                             {subItem.name}
                           </a>
@@ -211,8 +211,8 @@ export const Header = () => {
                             }}
                             className={`block px-4 py-2 rounded-md text-sm ${
                               isActive(subItem.path)
-                                ? 'text-orange-600 bg-orange-50'
-                                : 'text-gray-700 hover:text-orange-600 hover:bg-gray-50'
+                                ? 'text-orange-400 bg-gray-800'
+                                : 'text-gray-300 hover:text-orange-400 hover:bg-gray-800'
                             }`}
                           >
                             {subItem.name}
@@ -229,8 +229,8 @@ export const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                   className={`block px-4 py-3 rounded-md text-base font-medium ${
                     isActive(item.path)
-                      ? 'text-orange-600 bg-orange-50'
-                      : 'text-gray-700 hover:text-orange-600 hover:bg-gray-50'
+                      ? 'text-orange-400 bg-gray-800'
+                      : 'text-gray-200 hover:text-orange-400 hover:bg-gray-800'
                   }`}
                 >
                   {item.name}

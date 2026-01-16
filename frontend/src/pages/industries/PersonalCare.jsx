@@ -47,10 +47,10 @@ export const PersonalCare = () => {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6">
-                At LAMKO, we deliver premium, sustainably produced active ingredients for cosmetic and personal care applications through our end-to-end CRDMO/CDMO services. By integrating green chemistry principles and energy-efficient processes, we combine scientific excellence with environmental responsibility.
+                At LAMKO, we deliver high-value, sustainably produced active ingredients for cosmetic and personal care brands through integrated CRDMO/CDMO services that span custom molecule design, process development, scale-up, and reliable manufacturing. Our portfolio is centred on UV actives, antimicrobial systems for scalp and hair care, and well aging ingredients, giving formulators a focused toolbox for modern, performance driven skincare, suncare, and haircare products.
               </p>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                We create ingredients that deliver efficacy, purity, and a reduced ecological footprint, ideal for serums, creams, sunscreens, and anti-aging products.
+                By embedding green chemistry principles, energy-efficient operations, and smart solvent and waste management into each project, we combine scientific excellence with measurable environmental responsibility. Our UV filters, scalp/hair antimicrobials, and well-ageing molecules are engineered for efficacy, purity, and formulation robustness, making them ideally suited for serums, creams, sunscreens, and well-ageing products where performance and a reduced ecological footprint are equally critical.
               </p>
             </div>
             <div>

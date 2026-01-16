@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import { SplashScreen } from "./components/SplashScreen";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { CEOMessage } from "./pages/CEOMessage";
@@ -24,8 +25,13 @@ import { GetInTouch } from "./pages/GetInTouch";
 import { Toaster } from "./components/ui/sonner";
 
 function App() {
+  const [showSplash, setShowSplash] = useState(true);
+
   return (
     <div className="App">
+      {showSplash && (
+        <SplashScreen onComplete={() => setShowSplash(false)} />
+      )}
       <BrowserRouter>
         <Header />
         <Routes>

@@ -93,13 +93,13 @@ export const Header = () => {
                     {/* Main tab link */}
                     <Link
                       to={item.mainPath || '#'}
-                      className="px-3 py-2 rounded-l-md text-sm font-medium text-gray-700 hover:text-orange-600 hover:bg-gray-50 transition-colors duration-200"
+                      className="px-3 py-2 rounded-l-md text-sm font-medium text-gray-200 hover:text-orange-400 hover:bg-gray-800 transition-colors duration-200"
                     >
                       {item.name}
                     </Link>
                     {/* Dropdown indicator */}
                     <button
-                      className="px-1 py-2 rounded-r-md text-sm font-medium text-gray-700 hover:text-orange-600 hover:bg-gray-50 transition-colors duration-200"
+                      className="px-1 py-2 rounded-r-md text-sm font-medium text-gray-200 hover:text-orange-400 hover:bg-gray-800 transition-colors duration-200"
                     >
                       <ChevronDown size={16} className={`transition-transform duration-200 ${openDropdown === item.name ? 'rotate-180' : ''}`} />
                     </button>
@@ -145,8 +145,8 @@ export const Header = () => {
                   to={item.path}
                   className={`px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
                     isActive(item.path)
-                      ? 'text-orange-600 bg-orange-50'
-                      : 'text-gray-700 hover:text-orange-600 hover:bg-gray-50'
+                      ? 'text-orange-400 bg-gray-800'
+                      : 'text-gray-200 hover:text-orange-400 hover:bg-gray-800'
                   }`}
                 >
                   {item.name}
@@ -167,7 +167,7 @@ export const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100"
+            className="lg:hidden p-2 rounded-md text-gray-200 hover:bg-gray-800"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -176,7 +176,7 @@ export const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="lg:hidden bg-white border-t border-gray-200">
+        <div className="lg:hidden bg-gray-900 border-t border-gray-800">
           <nav className="px-4 pt-2 pb-4 space-y-1">
             {navigationStructure.map((item) => (
               item.hasDropdown ? (

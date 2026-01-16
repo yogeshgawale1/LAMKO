@@ -72,11 +72,12 @@ export const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img 
-              src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/rdim59xo_20260115_1848_Image%20Generation_remix_01kf0gtfk4em2bqpashv737ctv.png" 
-              alt="LAMKO" 
-              className="h-12 md:h-14 w-auto"
-            />
+            <div className="lamko-logo">
+              <span className="lamko-text">LAMK</span>
+              <span className="lamko-o">
+                <span className="lamko-o-icon"></span>
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

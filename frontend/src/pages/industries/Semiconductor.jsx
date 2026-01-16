@@ -47,10 +47,10 @@ export const Semiconductor = () => {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6">
-                At LAMKO, we synthesize high-purity specialty monomers, ionomers, and oligomers for advanced photoresist applications. Our custom-developed materials are engineered to meet the exacting demands of modern semiconductor lithography across g/i-line, KrF, ArF, and EUV processes.
+                As a specialised CRDMO, LAMKO acts as an end‑to‑end solution provider for semiconductor photoresist materials, covering custom monomer design, synthesis, purification, scale‑up, and reliable manufacturing for ArF and EUV applications.
               </p>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                Each compound is tailored with specific functional groups, such as acid-decomposable or base-labile units, to ensure optimal performance at your target exposure wavelength.
+                At LAMKO, we combine deep synthetic expertise with a robust purification infrastructure to deliver semiconductor-grade speciality monomers and related materials for ArF and EUV photoresist applications. As a specialised CRDMO, our integrated purification platform spans advanced adsorption and chromatographic techniques for clean separation of complex metal impurity profiles, high vacuum plus fractional distillation for high-boiling speciality chemicals and zone refining for ultra-precise purification of critical solids. By partnering with LAMKO, customers gain access not only to custom-engineered monomers but also to a purification ecosystem specifically built to meet the stringent quality and reliability requirements of modern semiconductor manufacturing.
               </p>
             </div>
             <div>

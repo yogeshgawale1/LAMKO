@@ -50,10 +50,10 @@ export const Display = () => {
                 At LAMKO, we provide end-to-end CRDMO services for building blocks, intermediates, HOST, ETL, and custom stack materials for cutting-edge OLED and next-generation display technologies. We combine deep scientific expertise with scalable manufacturing excellence to support your most demanding material and production requirements.
               </p>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-6">
-                Our state-of-the-art R&D and process development laboratories are engineered to ensure seamless scaling of production using large-scale reaction vessels based in India. These facilities feature advanced instrumentation for handling complex chemical processes—including C–C and C–N bond-forming reactions, boronization, and borylation—enabling a smooth transition from laboratory-scale innovation to full-scale commercial manufacturing.
+                Our state-of-the-art R&D and process development laboratories are engineered to ensure seamless scaling of production using large-scale reaction vessels based in India. These facilities feature advanced instrumentation for handling complex chemical processes, including C-C and C-N bond-forming reactions, boronization, and borylation, enabling a smooth transition from laboratory-scale innovation to full-scale commercial manufacturing.
               </p>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                To meet the industry's most demanding performance standards, we utilize advanced purification technologies—such as filtration, crystallization, flash chromatography, and high-vacuum sublimation—to deliver materials of exceptional purity, consistency, and reliability.
+                To meet the industry's most demanding performance standards, we utilize advanced purification technologies, such as filtration, crystallization, flash chromatography, and high-vacuum sublimation, to deliver materials of exceptional purity, consistency, and reliability.
               </p>
             </div>
             <div>

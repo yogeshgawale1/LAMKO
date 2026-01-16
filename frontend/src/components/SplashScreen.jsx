@@ -4,17 +4,32 @@ export const SplashScreen = ({ onComplete }) => {
   const [isVisible, setIsVisible] = useState(true);
   const [isFading, setIsFading] = useState(false);
   const videoRef = useRef(null);
+  const hasEnded = useRef(false);
+
+  const handleVideoEnd = () => {
+    if (hasEnded.current) return;
+    hasEnded.current = true;
+    
+    setIsFading(true);
+    setTimeout(() => {
+      setIsVisible(false);
+      if (onComplete) onComplete();
+    }, 800);
+  };
 
   useEffect(() => {
     const video = videoRef.current;
     
+    // Fallback timeout - end splash after 5 seconds max
+    const fallbackTimer = setTimeout(() => {
+      handleVideoEnd();
+    }, 5000);
+    
     if (video) {
-      // Try to play the video
       const playVideo = async () => {
         try {
           await video.play();
         } catch (err) {
-          // If autoplay fails, skip to main content
           console.log('Autoplay prevented, skipping intro');
           handleVideoEnd();
         }
@@ -22,18 +37,10 @@ export const SplashScreen = ({ onComplete }) => {
       
       playVideo();
     }
+    
+    return () => clearTimeout(fallbackTimer);
   }, []);
 
-  const handleVideoEnd = () => {
-    setIsFading(true);
-    // Wait for fade animation to complete
-    setTimeout(() => {
-      setIsVisible(false);
-      if (onComplete) onComplete();
-    }, 800);
-  };
-
-  // Also handle if video can't load
   const handleVideoError = () => {
     handleVideoEnd();
   };

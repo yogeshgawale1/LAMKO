@@ -196,6 +196,7 @@ export const facilityInfrastructure = {
         {
           category: "Analytical Characterization",
           equipment: [
+            "ICP-MS Systems",
             "HPLC/UPLC Systems",
             "GC/GC-MS Systems",
             "LC-MS Systems",

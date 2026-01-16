@@ -12,6 +12,18 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Full justification for paragraph text */
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Exceptions for centered sections */
+.text-center p,
+[class*="text-center"] p {
+    text-align: center;
+}
+
 code {
     font-family:
         source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;

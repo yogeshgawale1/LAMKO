@@ -67,17 +67,16 @@ export const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-gray-900 border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="lamko-logo">
-              <span className="lamko-text">LAMK</span>
-              <span className="lamko-o">
-                <span className="lamko-o-icon"></span>
-              </span>
-            </div>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/yhatja6r_20260115_1848_Image%20Generation_remix_01kf0gtfk4em2bqpashv737ctv.png" 
+              alt="LAMKO" 
+              className="h-11 md:h-13 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

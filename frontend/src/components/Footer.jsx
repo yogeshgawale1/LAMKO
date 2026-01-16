@@ -12,12 +12,13 @@ export const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="sm:col-span-2 lg:col-span-2">
-            <Link to="/" className="inline-block mb-3 md:mb-4 bg-white rounded-lg px-4 py-2">
-              <img 
-                src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/rdim59xo_20260115_1848_Image%20Generation_remix_01kf0gtfk4em2bqpashv737ctv.png" 
-                alt="LAMKO" 
-                className="h-10 md:h-12 w-auto"
-              />
+            <Link to="/" className="inline-block mb-3 md:mb-4">
+              <div className="lamko-logo" style={{filter: 'brightness(1.2)'}}>
+                <span className="lamko-text" style={{color: '#fff'}}>LAMK</span>
+                <span className="lamko-o">
+                  <span className="lamko-o-icon"></span>
+                </span>
+              </div>
             </Link>
             <p className="text-gray-400 mb-4 max-w-md text-sm md:text-base">
               {companyInfo.description}

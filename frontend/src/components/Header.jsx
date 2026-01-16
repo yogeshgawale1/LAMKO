@@ -34,8 +34,8 @@ export const Header = () => {
       hasDropdown: true,
       mainPath: '/industries',
       items: [
-        { name: 'Semiconductor Materials', path: '/industries/semiconductor' },
         { name: 'Display', path: '/industries/display' },
+        { name: 'Semiconductor Materials', path: '/industries/semiconductor' },
         { name: 'Personal Care Actives', path: '/industries/personal-care' }
       ]
     },

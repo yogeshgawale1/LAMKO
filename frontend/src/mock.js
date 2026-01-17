@@ -174,7 +174,6 @@ export const reactionCapabilities = {
 export const facilityInfrastructure = {
   title: "Facility & Infrastructure",
   description: "LAMKO is a premier, technology-driven bridge between cutting-edge innovation and world-class manufacturing. Strategically headquartered in Seoul with advanced R&D and process intensification facilities, we specialize in the development and commercialization of high-performance materials for the semiconductor, display, and specialty chemical industries.",
-  valueProposition: "Our unique 'light CRDMO' model focuses on the high-value front end of the supply chain, connecting the formidable R&D capabilities with scalable, cGMP-compliant production. We de-risk the journey from innovation to production, providing our global partners with a seamless, pre-validated pipeline of advanced projects, ready for scale.",
   locations: [
     {
       name: "Seoul, Korea - R&D Center",

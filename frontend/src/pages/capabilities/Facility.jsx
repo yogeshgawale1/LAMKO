@@ -12,8 +12,7 @@ export const Facility = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Building2 className="w-16 h-16 text-teal-600 mb-6" />
           <h1 className="text-5xl md:text-6xl font-bold mb-6">{facilityInfrastructure.title}</h1>
-          <p className="text-xl text-gray-300 max-w-4xl mb-4">{facilityInfrastructure.description}</p>
-          <p className="text-lg text-teal-300 max-w-4xl">{facilityInfrastructure.valueProposition}</p>
+          <p className="text-xl text-gray-300 max-w-4xl">{facilityInfrastructure.description}</p>
         </div>
       </section>
       <section className="py-20 bg-white">

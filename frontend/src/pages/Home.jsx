@@ -191,53 +191,58 @@ export const Home = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center">
             <div className="flex justify-center">
-              <img
-                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/68p2e472_image.png"
-                alt="Industry Experience 1"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
-
+              <a href="https://www.ictmumbai.edu.in/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/68p2e472_image.png"
+                  alt="ICT Mumbai"
+                  className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+              </a>
             </div>
             <div className="flex justify-center">
-              <img
-                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/6xz4llrc_image.png"
-                alt="Industry Experience 2"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
-
+              <a href="https://www.iitb.ac.in/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/6xz4llrc_image.png"
+                  alt="IIT Bombay"
+                  className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+              </a>
             </div>
             <div className="flex justify-center">
-              <img
-                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/2lwelm0f_image.png"
-                alt="Industry Experience 3"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
-
+              <a href="https://eng.skku.edu/eng/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/2lwelm0f_image.png"
+                  alt="SKKU"
+                  className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+              </a>
             </div>
             <div className="flex justify-center">
-              <img
-                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/p26ecier_image.png"
-                alt="Industry Experience 4"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
-
+              <a href="https://www.khu.ac.kr/eng/user/main/view.do" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/p26ecier_image.png"
+                  alt="Kyung Hee University"
+                  className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+              </a>
             </div>
             <div className="flex justify-center">
-              <img
-                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/26ucq9m6_image.png"
-                alt="Industry Experience 5"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
-
+              <a href="https://www.kaist.ac.kr/kr/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/26ucq9m6_image.png"
+                  alt="KAIST"
+                  className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+              </a>
             </div>
             <div className="flex justify-center">
-              <img
-                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/n7kf9bbn_image.png"
-                alt="Industry Experience 6"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
-
+              <a href="https://www.clariant.com" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/n7kf9bbn_image.png"
+                  alt="Clariant"
+                  className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+              </a>
             </div>
             <div className="flex justify-center">
               <img
                 src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/vfzsej54_image.png"
                 alt="Industry Experience 7"
                 className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
-
             </div>
           </div>
         </div>

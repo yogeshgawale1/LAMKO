@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Microscope, Droplet, Building2, Factory } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 
 export const Capabilities = () => {
+  useEffect(() => {
+    const prevent = (e) => e.preventDefault();
+    document.addEventListener('copy', prevent);
+    document.addEventListener('contextmenu', prevent);
+    return () => {
+      document.removeEventListener('copy', prevent);
+      document.removeEventListener('contextmenu', prevent);
+    };
+  }, []);
+
   const capabilitiesOverview = [
     {
       id: 1,

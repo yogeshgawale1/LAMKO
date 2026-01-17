@@ -231,18 +231,20 @@ export const Home = () => {
               </a>
             </div>
             <div className="flex justify-center">
-              <a href="https://www.clariant.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.wonik.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/n7kf9bbn_image.png"
-                  alt="Clariant"
+                  alt="Wonik"
                   className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
               </a>
             </div>
             <div className="flex justify-center">
-              <img
-                src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/vfzsej54_image.png"
-                alt="Industry Experience 7"
-                className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+              <a href="https://www.clariant.com" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_lamko-emergent/artifacts/vfzsej54_image.png"
+                  alt="Clariant"
+                  className="h-24 w-auto object-contain hover:scale-110 transition-transform duration-300" />
+              </a>
             </div>
           </div>
         </div>

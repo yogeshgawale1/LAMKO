@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Cpu, Monitor, Heart } from 'lucide-react';
 import { Button } from '../components/ui/button';
@@ -6,6 +6,15 @@ import { Card, CardContent } from '../components/ui/card';
 import { industries } from '../mock';
 
 export const Industries = () => {
+  useEffect(() => {
+    const prevent = (e) => e.preventDefault();
+    document.addEventListener('copy', prevent);
+    document.addEventListener('contextmenu', prevent);
+    return () => {
+      document.removeEventListener('copy', prevent);
+      document.removeEventListener('contextmenu', prevent);
+    };
+  }, []);
   const iconMap = {
     1: Cpu,
     2: Monitor,
@@ -19,7 +28,7 @@ export const Industries = () => {
   };
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen pt-20" style={{ userSelect: 'none' }}>
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Droplet, CheckCircle2 } from 'lucide-react';
 import { Button } from '../../components/ui/button';
 import { Card, CardContent } from '../../components/ui/card';
 
 export const Purifications = () => {
+  useEffect(() => {
+    const prevent = (e) => e.preventDefault();
+    document.addEventListener('copy', prevent);
+    document.addEventListener('contextmenu', prevent);
+    return () => {
+      document.removeEventListener('copy', prevent);
+      document.removeEventListener('contextmenu', prevent);
+    };
+  }, []);
+
   const purificationTech = [
     {
       name: "High-Vacuum Sublimation",

@@ -5,8 +5,8 @@ export const companyInfo = {
   tagline: "Your Trusted Strategic Partner in High-Purity Material Innovation",
   description: "We want to be a global tech and R&D-led supplier-of-choice for speciality chemicals across industries",
   location: "Seoul, South Korea",
-  email: "contact@lamko.com",
-  phone: "+82-2-XXXX-XXXX",
+  email: "info@lamko.co.kr",
+  phone: "+82-10-7269-6809",
   address: "Seoul, South Korea"
 };
 
@@ -253,5 +253,5 @@ export const stats = [
   { label: "Years of Excellence", value: "15+" },
   { label: "Korean Tech Partners", value: "5+" },
   { label: "Industries Served", value: "4" },
-  { label: "Projects Delivered", value: "100+" }
+  { label: "Projects Delivered", value: "50+" }
 ];

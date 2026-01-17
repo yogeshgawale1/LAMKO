@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { SplashScreen } from "./components/SplashScreen";
+import { ScrollToTop } from "./components/ScrollToTop";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { CEOMessage } from "./pages/CEOMessage";
@@ -33,6 +34,7 @@ function App() {
         <SplashScreen onComplete={() => setShowSplash(false)} />
       )}
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

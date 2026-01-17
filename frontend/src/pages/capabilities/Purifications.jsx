@@ -43,7 +43,7 @@ export const Purifications = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen pt-20" style={{ userSelect: 'none' }}>
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Droplet className="w-16 h-16 text-teal-600 mb-6" />

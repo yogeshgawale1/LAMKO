@@ -12,13 +12,14 @@ export const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="sm:col-span-2 lg:col-span-2">
-            <Link to="/" className="inline-block mb-3 md:mb-4">
+            <Link to="/" className="inline-block mb-2">
               <img 
                 src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/yhatja6r_20260115_1848_Image%20Generation_remix_01kf0gtfk4em2bqpashv737ctv.png" 
                 alt="LAMKO" 
                 className="h-10 md:h-12 w-auto"
               />
             </Link>
+            <p className="text-sm text-gray-300 mb-3">Lumora Advanced Materials Korea (LAMKO)</p>
             <p className="text-gray-400 mb-4 max-w-md text-sm md:text-base">
               {companyInfo.description}
             </p>

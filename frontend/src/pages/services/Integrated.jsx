@@ -46,7 +46,7 @@ export const Integrated = () => {
             </div>
             <div>
               <img
-                src="https://images.pexels.com/photos/35609693/pexels-photo-35609693.jpeg"
+                src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/syp9zdec_CRDMO2.png"
                 alt="Integrated Solutions"
                 className="rounded-lg shadow-2xl"
               />

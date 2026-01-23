@@ -37,7 +37,7 @@ export const Production = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1766297246906-210617be31a4"
+                src="https://customer-assets.emergentagent.com/job_lamko-b2b/artifacts/xxtnlmfu_CMO3.png"
                 alt="Production"
                 className="rounded-lg shadow-2xl"
               />
